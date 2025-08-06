@@ -36,7 +36,7 @@ export default function Youtube() {
     <section className="bg-yellow-400 text-black py-5 px-4 md:px-10">
       <div className="max-w-7xl mx-auto text-center p-6 rounded-lg">
         <h2 className="text-3xl md:text-5xl font-bold font-['Pacifico'] mb-4 text-black">
-          THE PERFECT LOCATION
+          A MOMENT TO REMEMBER
         </h2>
         <p className="text-xl font-semibold mb-10">
           PRE-WEDDING & OTHERS VIDEOS IN BEST LOCATIONS OF DELHI

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import bgImage from '../assets/marry.jpg';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 export default function Testimonials() {
+  const swiperRef = useRef(null); // Swiper reference
+
   const testimonials = [
     {
       name: "Aarav & Ananya",
@@ -65,30 +67,42 @@ export default function Testimonials() {
           What Our Clients Say
         </h2>
         <p className="text-lg mb-12 max-w-3xl mx-auto text-gray-200">
-          Discover why <span className="text-yellow-400 font-semibold">The Picture Town</span> is rated the <strong>best shoot location in Delhi</strong> for pre-wedding, maternity, baby, and fashion photography. Professional setups, stunning backdrops, and affordable packages make every shoot unforgettable.
+          Discover why{" "}
+          <span className="text-yellow-400 font-semibold">The Picture Town</span>{" "}
+          is rated the <strong>best shoot location in Delhi</strong> for pre-wedding, maternity,
+          baby, and fashion photography. Professional setups, stunning backdrops,
+          and affordable packages make every shoot unforgettable.
         </p>
 
-        <Swiper
-          modules={[Pagination, Autoplay]}
-          spaceBetween={30}
-          slidesPerView={1}
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 4000 }}
-          loop={true}
-          breakpoints={{
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
+        <div
+          onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+          onMouseLeave={() => swiperRef.current?.autoplay?.start()}
         >
-          {testimonials.map((t, index) => (
-            <SwiperSlide key={index}>
-              <div className="bg-white text-black p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all h-full flex flex-col justify-between">
-                <p className="text-base italic mb-4">“{t.quote}”</p>
-                <div className="text-right font-semibold text-gray-800">– {t.name}</div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          <Swiper
+            modules={[Pagination, Autoplay]}
+            spaceBetween={30}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 4000 }}
+            loop={true}
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+            }}
+            breakpoints={{
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+          >
+            {testimonials.map((t, index) => (
+              <SwiperSlide key={index}>
+                <div className="bg-white text-black p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all h-full flex flex-col justify-between">
+                  <p className="text-base italic mb-4">“{t.quote}”</p>
+                  <div className="text-right font-semibold text-gray-800">– {t.name}</div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </section>
   );
