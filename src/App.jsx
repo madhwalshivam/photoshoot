@@ -4,6 +4,7 @@ import Header from './components/Navbar.jsx';
 import Home from './pages/Home.jsx'; 
 import Footer from './components/Footer.jsx';
 import OurVideos from './pages/Videos.jsx';
+import PreWedding from './pages/PreWedding.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/videos" element={<OurVideos/>} />
+         <Route path="/Best-Preweeding-in-delhi" element={<PreWedding/>} />
         
       </Routes>
       <Footer/>

@@ -17,21 +17,61 @@ export default function Header() {
   ];
 
   const rightNavItems = [
-    { name: 'Pre-Weeding', href: '/Best-Preweeding-in-india' },
+    { name: 'Pre-Weeding', href: '/Best-Preweeding-in-delhi' },
     { name: 'Videos', href: '/videos' },
     { name: 'Contact & Pricing', href: '/contact' },
   ];
 
-  const services = [
-    { name: 'Maternity Photography', href: '/services/maternity' },
-    { name: 'Baby Shoot', href: '/services/baby-shoot' },
-    { name: 'Fashion Photography', href: '/services/fashion' },
-  ];
+ const services = [
+  { name: 'Songs Shoot', href: '/songs' },
+  { name: 'Fashion Shoot', href: '/fashion' },
+  { name: 'Commercial Shoot', href: '/commercial' },
+  { name: 'Brand Shoot', href: '/brand' },
+  { name: 'Family Shoot', href: '/family' },
+  { name: 'Instagram Reel Shoot', href: '/instagram-reel' },
+  { name: 'YouTube Blog Shoot', href: '/youtube-blog' },
+  { name: 'Anniversary Shoot', href: '/anniversary' },
+  { name: 'Maternity Shoot', href: '/maternity' },
+  { name: 'Baby Shoot', href: '/baby-shoot' },
+];
+
 
   const sets = [
-    'Bonfire', 'Brick Wall', 'Bricked Arches', 'Bulb Set', 'Cafe',
-    'Colour Wall', 'Food Truck', 'Frame In Jungle', 'Marry Me', 'Village', 'Others'
-  ];
+  'Glasshouse',
+  'Red Contrard Haveli',
+  'Scottish House',
+  'Tree House',
+  'Santorini',
+  'Roman Pillar',
+  'Swimming Pool',
+  'Gazebo',
+  'Marry Me',
+  'Library',
+  'Kitchen',
+  'Bar',
+  'Kurbani',
+  'Lounge',
+  'Bench',
+  'Tubelight',
+  'Village',
+  'Wheel Wheel Spanish Cafe',
+  'Windmill',
+  'Red Piano + Tree',
+  'Picnic',
+  'Madhuban',
+  'Junkyard Red Car',
+  'Bonfire',
+  'Bricked Arches',
+  'Back Archies',
+  'Pillar Walk',
+  'Bulb Set',
+  'Colour Wall',
+  'Swing Set',
+  'Foodplum',
+  'Railway Station',
+  'London Street',
+  'Beach'
+];
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
@@ -42,7 +82,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-12">
 
             {navItems.map((item) => (
-              <Link key={item.name} to={item.href} className="text-white hover:text-gray-300 font-medium transition">
+              <Link key={item.name} to={item.href} className="text-white font-['Pacifico'] hover:text-gray-300 font-medium transition">
                 {item.name}
               </Link>
             ))}
@@ -53,13 +93,13 @@ export default function Header() {
               onMouseEnter={() => setShowServicesDropdown(true)}
               onMouseLeave={() => setShowServicesDropdown(false)}
             >
-              <button className="text-white hover:text-gray-300 font-medium flex items-center gap-1">
+              <button className="text-white font-['Pacifico'] hover:text-gray-300 font-medium flex items-center gap-1">
                 Services <ExpandMoreIcon fontSize="small" />
               </button>
               {showServicesDropdown && (
-                <div className="absolute top-full left-0 mt-2 w-60 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20">
+                <div className="absolute top-full font-['Pacifico'] left-0 mt-2 w-60 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20">
                   {services.map((item) => (
-                    <Link key={item.name} to={item.href} className="block px-6 py-3 text-gray-800 hover:bg-gray-100">
+                    <Link key={item.name} to={item.href} className="block px-6 py-1 text-gray-800 hover:bg-gray-100">
                       {item.name}
                     </Link>
                   ))}
@@ -73,17 +113,21 @@ export default function Header() {
               onMouseEnter={() => setShowSetsDropdown(true)}
               onMouseLeave={() => setShowSetsDropdown(false)}
             >
-              <button className="text-white hover:text-gray-300 font-medium flex items-center gap-1">
+              <button className="text-white font-['Pacifico'] hover:text-gray-300 font-medium flex items-center gap-1">
                 Sets <ExpandMoreIcon fontSize="small" />
               </button>
               {showSetsDropdown && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20">
-                  {sets.map((set) => (
-                    <div key={set} className="px-6 py-2 hover:bg-gray-100 text-gray-800 cursor-pointer">
-                      {set}
-                    </div>
-                  ))}
-                </div>
+               <div className="absolute top-full font-['Pacifico'] left-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20 max-h-60 overflow-y-auto">
+  {sets.map((set) => (
+    <div
+      key={set}
+      className="px-6 py-1 hover:bg-gray-100 text-gray-800 cursor-pointer"
+    >
+      {set}
+    </div>
+  ))}
+</div>
+
               )}
             </div>
 
@@ -94,7 +138,7 @@ export default function Header() {
 
             {/* Right Nav */}
             {rightNavItems.map((item) => (
-              <Link key={item.name} to={item.href} className="text-white hover:text-gray-300 font-medium transition">
+              <Link key={item.name} to={item.href} className="text-white font-['Pacifico'] hover:text-gray-300 font-medium transition">
                 {item.name}
               </Link>
             ))}
@@ -129,53 +173,52 @@ export default function Header() {
             ))}
 
             {/* Mobile Services Dropdown */}
-            <div className="border-t border-white/20 mt-2">
-              <button
-                onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
-              >
-                Services
-                <ExpandMoreIcon
-                  className={`transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`}
-                />
-              </button>
-              {mobileServicesOpen && (
-                <div className="pl-6">
-                  {services.map((item) => (
-                    <Link
-                      key={item.name}
-                      to={item.href}
-                      className="block py-2 text-white hover:text-gray-300"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
+           <div className="border-t border-white/20 mt-2">
+  <button
+    onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+    className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
+  >
+    Services
+    <ExpandMoreIcon
+      className={`transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`}
+    />
+  </button>
+  {mobileServicesOpen && (
+    <div className="pl-6 max-h-60 overflow-y-auto">
+      {services.map((item) => (
+        <Link
+          key={item.name}
+          to={item.href}
+          className="block py-2 text-white hover:text-gray-300"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          {item.name}
+        </Link>
+      ))}
+    </div>
+  )}
+</div>
             {/* Mobile Sets Dropdown */}
-            <div className="border-t border-white/20 mt-2">
-              <button
-                onClick={() => setMobileSetsOpen(!mobileSetsOpen)}
-                className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
-              >
-                Sets
-                <ExpandMoreIcon
-                  className={`transition-transform ${mobileSetsOpen ? "rotate-180" : ""}`}
-                />
-              </button>
-              {mobileSetsOpen && (
-                <div className="pl-6 pb-2">
-                  {sets.map((set) => (
-                    <div key={set} className="py-1 text-white text-sm">
-                      {set}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
+          <div className="border-t border-white/20 mt-2">
+  <button
+    onClick={() => setMobileSetsOpen(!mobileSetsOpen)}
+    className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
+  >
+    Sets
+    <ExpandMoreIcon
+      className={`transition-transform ${mobileSetsOpen ? "rotate-180" : ""}`}
+    />
+  </button>
+  {mobileSetsOpen && (
+    <div className="pl-6 pb-2 max-h-60 overflow-y-auto">
+      {sets.map((set) => (
+        <div key={set} className="py-1 text-white text-sm">
+          {set}
+        </div>
+      ))}
+    </div>
+  )}
+</div>
           </div>
         )}
       </nav>

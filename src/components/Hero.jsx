@@ -63,16 +63,16 @@ const Hero = () => {
               className="w-full h-[550px] object-cover transition-opacity duration-1000"
             />
 
-            {/* MUI Arrows - Mobile */}
+            {/* Arrows for Mobile */}
             <button
               onClick={prevSlide}
-              className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white p-2 rounded-full z-10"
+              className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black text-white p-2 rounded-full z-10"
             >
               <ArrowBackIosNewIcon fontSize="small" />
             </button>
             <button
               onClick={nextSlide}
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-40 text-white p-2 rounded-full z-10"
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black text-white p-2 rounded-full z-10"
             >
               <ArrowForwardIosIcon fontSize="small" />
             </button>
@@ -95,16 +95,16 @@ const Hero = () => {
             </div>
           ))}
 
-          {/* MUI Arrows - Desktop */}
+          {/* Arrows for Desktop */}
           <button
             onClick={prevSlide}
-            className="absolute left-6 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full z-20 hover:bg-opacity-70"
+            className="absolute left-6 top-1/2 transform -translate-y-1/2  text-white p-3 rounded-full z-20 hover:bg-gray-800"
           >
             <ArrowBackIosNewIcon fontSize="medium" />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute right-6 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full z-20 hover:bg-opacity-70"
+            className="absolute right-6 top-1/2 transform -translate-y-1/2  text-white p-3 rounded-full z-20 hover:bg-gray-800"
           >
             <ArrowForwardIosIcon fontSize="medium" />
           </button>
@@ -115,3 +115,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

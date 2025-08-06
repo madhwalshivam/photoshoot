@@ -35,9 +35,9 @@ export default function OurVideos() {
 
       <section className="bg-white text-black py-10 px-4 md:px-10">
         <div className="max-w-7xl mx-auto text-center">
-        <p className="text-2xl md:text-4xl font-bold mb-4 text-black">
+        <p className="text-2xl md:text-4xl font-bold font-['Pacifico'] mb-4 text-black">
   Capturing Unforgettable Moments<br />
-  in stunning locations
+ <p className="text-yellow-400"> in stunning locations</p>
 </p>
 
 <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
