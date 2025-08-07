@@ -13,7 +13,7 @@ const Home = () => {
       <Seo/>
       <HomeServices/>
       <Youtube/>
-      <Instagram/>
+      {/* <Instagram/> */}
       <Testimonials/>
     </div>
   )
