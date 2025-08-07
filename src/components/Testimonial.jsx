@@ -63,7 +63,7 @@ export default function Testimonials() {
       <div className="absolute inset-0 bg-black/70 z-0"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-['Pacifico'] font-bold mb-4">
+        <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">
           What Our Clients Say
         </h2>
         <p className="text-lg mb-12 max-w-3xl mx-auto text-gray-200">

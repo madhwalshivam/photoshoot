@@ -82,7 +82,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-12">
 
             {navItems.map((item) => (
-              <Link key={item.name} to={item.href} className="text-white font-['Pacifico'] hover:text-gray-300 font-medium transition">
+              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
                 {item.name}
               </Link>
             ))}
@@ -93,11 +93,11 @@ export default function Header() {
               onMouseEnter={() => setShowServicesDropdown(true)}
               onMouseLeave={() => setShowServicesDropdown(false)}
             >
-              <button className="text-white font-['Pacifico'] hover:text-gray-300 font-medium flex items-center gap-1">
+              <button className="text-white font-playfair hover:text-gray-300 font-medium flex items-center gap-1">
                 Services <ExpandMoreIcon fontSize="small" />
               </button>
               {showServicesDropdown && (
-                <div className="absolute top-full font-['Pacifico'] left-0 mt-2 w-60 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20">
+                <div className="absolute top-full font-playfair left-0 mt-2 w-60 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20">
                   {services.map((item) => (
                     <Link key={item.name} to={item.href} className="block px-6 py-1 text-gray-800 hover:bg-gray-100">
                       {item.name}
@@ -113,11 +113,11 @@ export default function Header() {
               onMouseEnter={() => setShowSetsDropdown(true)}
               onMouseLeave={() => setShowSetsDropdown(false)}
             >
-              <button className="text-white font-['Pacifico'] hover:text-gray-300 font-medium flex items-center gap-1">
+              <button className="text-white font-playfair hover:text-gray-300 font-medium flex items-center gap-1">
                 Sets <ExpandMoreIcon fontSize="small" />
               </button>
               {showSetsDropdown && (
-               <div className="absolute top-full font-['Pacifico'] left-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20 max-h-60 overflow-y-auto">
+               <div className="absolute top-full font-playfair left-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20 max-h-60 overflow-y-auto">
   {sets.map((set) => (
     <div
       key={set}
@@ -132,20 +132,20 @@ export default function Header() {
             </div>
 
             {/* Center Logo */}
-            <Link to="/" className="text-3xl font-['Pacifico'] text-white mx-8">
+            <Link to="/" className="text-3xl font-playfair text-white mx-8">
               The Picture Town
             </Link>
 
             {/* Right Nav */}
             {rightNavItems.map((item) => (
-              <Link key={item.name} to={item.href} className="text-white font-['Pacifico'] hover:text-gray-300 font-medium transition">
+              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
                 {item.name}
               </Link>
             ))}
           </div>
 
           {/* Mobile Logo */}
-          <Link to="/" className="lg:hidden text-3xl font-['Pacifico'] text-white">
+          <Link to="/" className="lg:hidden text-3xl font-playfair text-white">
             The Picture Town
           </Link>
 

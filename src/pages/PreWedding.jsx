@@ -81,7 +81,7 @@ const PreWeddingPhotos = () => {
 
       <div className="min-h-screen bg-gray-100 px-4 md:px-6 py-10">
       <div className="max-w-7xl mx-auto text-center">
-  <p className="text-2xl md:text-4xl font-bold mb-4 font-['Pacifico'] text-black">
+  <p className="text-2xl md:text-4xl font-bold mb-4 font-playfair text-black">
     Capturing Your Love Story<br />
     <p className="text-yellow-400">at Dreamy Locations</p>
     

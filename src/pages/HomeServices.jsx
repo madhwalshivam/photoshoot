@@ -103,7 +103,7 @@ const HomeService = () => {
 
   return (
     <div className="bg-gray-100 py-16 px-4">
-      <h2 className="text-center text-4xl font-['Pacifico'] font-semibold mb-10 tracking-wide text-black">
+      <h2 className="text-center text-4xl font-playfair font-semibold mb-10 tracking-wide text-black">
         OUR SERVICES
       </h2>
       <div className="max-w-7xl mx-auto">
@@ -119,7 +119,7 @@ const HomeService = () => {
                 }}
               >
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 transition-opacity duration-300 group-hover:bg-opacity-60">
-                  <h3 className="text-white font-['Pacifico'] text-xl font-bold">{service.title}</h3>
+                  <h3 className="text-white font-playfair text-xl font-bold">{service.title}</h3>
                   <p className="text-white text-sm tracking-wide mt-1">{service.desc}</p>
                 </div>
               </div>

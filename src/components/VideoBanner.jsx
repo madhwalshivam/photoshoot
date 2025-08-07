@@ -8,7 +8,7 @@ export default function VideoBanner() {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-40" /> {/* Dark overlay */}
-      <h1 className="relative z-10 text-white text-4xl md:text-5xl font-bold font-['Pacifico']">
+      <h1 className="relative z-10 text-white text-4xl md:text-5xl font-bold font-playfair">
         OUR VIDEOS
       </h1>
     </section>
