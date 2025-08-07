@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/pree.jpg";
+import bgImage from "../assets/maternity shoot.jpg";
 
 export default function MatBanner() {
   return (
@@ -12,7 +12,7 @@ export default function MatBanner() {
 
       {/* Centered Text */}
       <div className="relative z-10 flex items-center justify-center h-full w-full">
-        <h1 className="text-white text-3xl md:text-5xl font-bold font-['Pacifico'] text-center px-4">
+        <h1 className="text-white text-3xl md:text-5xl font-bold font-playfair text-center px-4">
          Embracing Motherhood, One Magical Moment at a Time
         </h1>
       </div>
