@@ -16,6 +16,8 @@ import img6 from "../assets/ban1.jpg";
 import img6Mob from "../assets/f9.jpg";
 import img7 from "../assets/pre1.jpg";
 import img7Mob from "../assets/f7.jpg";
+import img8 from "../assets/front width photos (13).jpg";
+import img8Mob from "../assets/front width photos (13).jpg";
 
 const Hero = () => {
   const [current, setCurrent] = useState(0);
@@ -29,6 +31,7 @@ const Hero = () => {
     { desktop: img5, mobile: img5Mob },
     { desktop: img6, mobile: img6Mob },
     { desktop: img7, mobile: img7Mob },
+     { desktop: img8, mobile: img8Mob },
   ];
 
   useEffect(() => {

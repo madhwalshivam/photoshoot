@@ -17,7 +17,7 @@ export default function Header() {
   ];
 
   const rightNavItems = [
-    { name: 'Pre-Weeding', href: '/Best-Preweeding-in-delhi' },
+    { name: 'Pre-Weeding', href: '/pre-wedding-photography-delhi' },
     { name: 'Videos', href: '/videos' },
     { name: 'Contact & Pricing', href: '/contact' },
   ];
