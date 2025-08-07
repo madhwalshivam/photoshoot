@@ -9,6 +9,7 @@ import OurVideos from './pages/Videos.jsx';
 import PreWedding from './pages/PreWedding.jsx';
 import Mat from './pages/Mat.jsx';
 import PhotoshootContact from './pages/Contact.jsx';
+import AboutStory from './pages/About.jsx';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/pre-wedding-photography-delhi" element={<PreWedding />} />
         <Route path="/maternity-shoot-in-delhi" element={<Mat />} />
         <Route path="/contact" element={<PhotoshootContact/>} />
+         <Route path="/about" element={<AboutStory/>} />
       </Routes>
       <Footer />
     </HelmetProvider>

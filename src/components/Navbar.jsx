@@ -14,64 +14,63 @@ export default function Header() {
   const navItems = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
+    { name: 'Pre-Wedding', href: '/pre-wedding-photography-delhi' },
   ];
 
   const rightNavItems = [
-    { name: 'Pre-Wedding', href: '/pre-wedding-photography-delhi' },
     { name: 'Videos', href: '/videos' },
     { name: 'Contact & Pricing', href: '/contact' },
   ];
 
- const services = [
-  { name: 'Songs Shoot', href: '/songs' },
-  { name: 'Fashion Shoot', href: '/fashion' },
-  { name: 'Commercial Shoot', href: '/commercial' },
-  { name: 'Brand Shoot', href: '/brand' },
-  { name: 'Family Shoot', href: '/family' },
-  { name: 'Instagram Reel Shoot', href: '/instagram-reel' },
-  { name: 'YouTube Blog Shoot', href: '/youtube-blog' },
-  { name: 'Anniversary Shoot', href: '/anniversary' },
-  { name: 'Maternity Shoot', href: '/maternity-shoot-in-delhi' },
-  { name: 'Baby Shoot', href: '/baby-shoot' },
-];
-
+  const services = [
+    { name: 'Songs Shoot', href: '/songs' },
+    { name: 'Fashion Shoot', href: '/fashion' },
+    { name: 'Commercial Shoot', href: '/commercial' },
+    { name: 'Brand Shoot', href: '/brand' },
+    { name: 'Family Shoot', href: '/family' },
+    { name: 'Instagram Reel Shoot', href: '/instagram-reel' },
+    { name: 'YouTube Blog Shoot', href: '/youtube-blog' },
+    { name: 'Anniversary Shoot', href: '/anniversary' },
+    { name: 'Maternity Shoot', href: '/maternity-shoot-in-delhi' },
+    { name: 'Baby Shoot', href: '/baby-shoot' },
+  ];
 
   const sets = [
-  'Glasshouse',
-  'Red Contrard Haveli',
-  'Scottish House',
-  'Tree House',
-  'Santorini',
-  'Roman Pillar',
-  'Swimming Pool',
-  'Gazebo',
-  'Marry Me',
-  'Library',
-  'Kitchen',
-  'Bar',
-  'Kurbani',
-  'Lounge',
-  'Bench',
-  'Tubelight',
-  'Village',
-  'Wheel Wheel Spanish Cafe',
-  'Windmill',
-  'Red Piano + Tree',
-  'Picnic',
-  'Madhuban',
-  'Junkyard Red Car',
-  'Bonfire',
-  'Bricked Arches',
-  'Back Archies',
-  'Pillar Walk',
-  'Bulb Set',
-  'Colour Wall',
-  'Swing Set',
-  'Foodplum',
-  'Railway Station',
-  'London Street',
-  'Beach'
-];
+    'Glasshouse',
+    'Red Contrard Haveli',
+    'Scottish House',
+    'Tree House',
+    'Santorini',
+    'Roman Pillar',
+    'Swimming Pool',
+    'Gazebo',
+    'Marry Me',
+    'Library',
+    'Kitchen',
+    'Bar',
+    'Kurbani',
+    'Lounge',
+    'Bench',
+    'Tubelight',
+    'Village',
+    'Wheel Wheel Spanish Cafe',
+    'Windmill',
+    'Red Piano + Tree',
+    'Picnic',
+    'Madhuban',
+    'Junkyard Red Car',
+    'Bonfire',
+    'Bricked Arches',
+    'Back Archies',
+    'Pillar Walk',
+    'Bulb Set',
+    'Colour Wall',
+    'Swing Set',
+    'Foodplum',
+    'Railway Station',
+    'London Street',
+    'Beach',
+  ];
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
@@ -81,6 +80,7 @@ export default function Header() {
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center space-x-12">
 
+            {/* Left Nav Items */}
             {navItems.map((item) => (
               <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
                 {item.name}
@@ -107,7 +107,15 @@ export default function Header() {
               )}
             </div>
 
-            {/* Sets Dropdown */}
+            {/* Logo in Center */}
+            <Link to="/" className="text-3xl font-playfair text-white mx-8">
+              The Picture Town
+            </Link>
+
+            {/* Right Nav Items */}
+            
+
+            {/* Sets Dropdown (Right side) */}
             <div
               className="relative"
               onMouseEnter={() => setShowSetsDropdown(true)}
@@ -117,26 +125,18 @@ export default function Header() {
                 Sets <ExpandMoreIcon fontSize="small" />
               </button>
               {showSetsDropdown && (
-               <div className="absolute top-full font-playfair left-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20 max-h-60 overflow-y-auto">
-  {sets.map((set) => (
-    <div
-      key={set}
-      className="px-6 py-1 hover:bg-gray-100 text-gray-800 cursor-pointer"
-    >
-      {set}
-    </div>
-  ))}
-</div>
-
+                <div className="absolute top-full font-playfair right-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20 max-h-60 overflow-y-auto">
+                  {sets.map((set) => (
+                    <div
+                      key={set}
+                      className="px-6 py-1 hover:bg-gray-100 text-gray-800 cursor-pointer"
+                    >
+                      {set}
+                    </div>
+                  ))}
+                </div>
               )}
             </div>
-
-            {/* Center Logo */}
-            <Link to="/" className="text-3xl font-playfair text-white mx-8">
-              The Picture Town
-            </Link>
-
-            {/* Right Nav */}
             {rightNavItems.map((item) => (
               <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
                 {item.name}
@@ -173,55 +173,57 @@ export default function Header() {
             ))}
 
             {/* Mobile Services Dropdown */}
-           <div className="border-t border-white/20 mt-2">
-  <button
-    onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-    className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
-  >
-    Services
-    <ExpandMoreIcon
-      className={`transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`}
-    />
-  </button>
-  {mobileServicesOpen && (
-    <div className="pl-6 max-h-60 overflow-y-auto">
-      {services.map((item) => (
-        <Link
-          key={item.name}
-          to={item.href}
-          className="block py-2 text-white hover:text-gray-300"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          {item.name}
-        </Link>
-      ))}
-    </div>
-  )}
-</div>
+            <div className="border-t border-white/20 mt-2">
+              <button
+                onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
+              >
+                Services
+                <ExpandMoreIcon
+                  className={`transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`}
+                />
+              </button>
+              {mobileServicesOpen && (
+                <div className="pl-6 max-h-60 overflow-y-auto">
+                  {services.map((item) => (
+                    <Link
+                      key={item.name}
+                      to={item.href}
+                      className="block py-2 text-white hover:text-gray-300"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
             {/* Mobile Sets Dropdown */}
-          <div className="border-t border-white/20 mt-2">
-  <button
-    onClick={() => setMobileSetsOpen(!mobileSetsOpen)}
-    className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
-  >
-    Sets
-    <ExpandMoreIcon
-      className={`transition-transform ${mobileSetsOpen ? "rotate-180" : ""}`}
-    />
-  </button>
-  {mobileSetsOpen && (
-    <div className="pl-6 pb-2 max-h-60 overflow-y-auto">
-      {sets.map((set) => (
-        <div key={set} className="py-1 text-white text-sm">
-          {set}
-        </div>
-      ))}
-    </div>
-  )}
-</div>
+            <div className="border-t border-white/20 mt-2">
+              <button
+                onClick={() => setMobileSetsOpen(!mobileSetsOpen)}
+                className="w-full text-left px-4 py-3 text-white flex justify-between items-center"
+              >
+                Sets
+                <ExpandMoreIcon
+                  className={`transition-transform ${mobileSetsOpen ? "rotate-180" : ""}`}
+                />
+              </button>
+              {mobileSetsOpen && (
+                <div className="pl-6 pb-2 max-h-60 overflow-y-auto">
+                  {sets.map((set) => (
+                    <div key={set} className="py-1 text-white text-sm">
+                      {set}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         )}
       </nav>
     </header>
   );
 }
+
