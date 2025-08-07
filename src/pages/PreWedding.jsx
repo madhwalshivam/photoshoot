@@ -112,7 +112,7 @@ const PreWeddingPhotos = () => {
                   src={img}
                   alt={`Pre-Wedding ${index + 1}`}
                   loading="eager"
-                  className="w-full h-48 object-cover"
+                  className="w-full h-[300px] object-cover"
                 />
               </div>
             );

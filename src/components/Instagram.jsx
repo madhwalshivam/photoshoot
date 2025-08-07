@@ -77,7 +77,7 @@ export default function Instagram() {
           rel="noopener noreferrer"
           className="inline-block bg-yellow-400 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600 transition"
         >
-          Check Our Insta Page
+           Check Our Insta Page
         </a>
       </div>
     </section>

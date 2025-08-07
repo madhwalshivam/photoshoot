@@ -17,7 +17,7 @@ export default function Header() {
   ];
 
   const rightNavItems = [
-    { name: 'Pre-Weeding', href: '/pre-wedding-photography-delhi' },
+    { name: 'Pre-Wedding', href: '/pre-wedding-photography-delhi' },
     { name: 'Videos', href: '/videos' },
     { name: 'Contact & Pricing', href: '/contact' },
   ];
@@ -31,7 +31,7 @@ export default function Header() {
   { name: 'Instagram Reel Shoot', href: '/instagram-reel' },
   { name: 'YouTube Blog Shoot', href: '/youtube-blog' },
   { name: 'Anniversary Shoot', href: '/anniversary' },
-  { name: 'Maternity Shoot', href: '/maternity' },
+  { name: 'Maternity Shoot', href: '/maternity-shoot-in-delhi' },
   { name: 'Baby Shoot', href: '/baby-shoot' },
 ];
 
