@@ -10,6 +10,7 @@ import PreWedding from './pages/PreWedding.jsx';
 import Mat from './pages/Mat.jsx';
 import PhotoshootContact from './pages/Contact.jsx';
 import AboutStory from './pages/About.jsx';
+import Fashion from './pages/Fashion.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/maternity-shoot-in-delhi" element={<Mat />} />
         <Route path="/contact" element={<PhotoshootContact/>} />
          <Route path="/about" element={<AboutStory/>} />
+         <Route path="/fashion-shoot-in-delhi" element={<Fashion/>} />
       </Routes>
       <Footer />
     </HelmetProvider>

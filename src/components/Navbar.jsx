@@ -24,7 +24,7 @@ export default function Header() {
 
   const services = [
     { name: 'Songs Shoot', href: '/songs' },
-    { name: 'Fashion Shoot', href: '/fashion' },
+    { name: 'Fashion Shoot', href: '/fashion-shoot-in-delhi' },
     { name: 'Commercial Shoot', href: '/commercial' },
     { name: 'Brand Shoot', href: '/brand' },
     { name: 'Family Shoot', href: '/family' },
