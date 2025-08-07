@@ -29,7 +29,7 @@ export default function Instagram() {
   slidesToShow: 7,
   slidesToScroll: 1,
   pauseOnHover: true,
-  arrows: true,
+  arrows: false,
   responsive: [
     {
       breakpoint: 1280,

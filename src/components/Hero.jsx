@@ -4,17 +4,17 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import img1 from "../assets/pre5.jpg";
 import img1Mob from "../assets/pre5.jpg";
-import img2 from "../assets/baby1.jpg";
+import img2 from "../assets/C (19).jpeg";
 import img2Mob from "../assets/baby1.jpg";
-import img3 from "../assets/f2.jpg";
+import img3 from "../assets/C (20).jpeg";
 import img3Mob from "../assets/f1.jpg";
-import img4 from "../assets/ban2.jpg";
+import img4 from "../assets/front width photos (8).jpg";
 import img4Mob from "../assets/maternity.jpg";
 import img5 from "../assets/ban6.jpg";
 import img5Mob from "../assets/ban6.jpg";
 import img6 from "../assets/ban1.jpg";
 import img6Mob from "../assets/f9.jpg";
-import img7 from "../assets/ban5.jpg";
+import img7 from "../assets/pre1.jpg";
 import img7Mob from "../assets/f7.jpg";
 
 const Hero = () => {
@@ -66,13 +66,13 @@ const Hero = () => {
             {/* Arrows for Mobile */}
             <button
               onClick={prevSlide}
-              className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black text-white p-2 rounded-full z-10"
+              className="absolute left-2 top-1/2 transform -translate-y-1/2  text-white p-2 rounded-full z-10"
             >
               <ArrowBackIosNewIcon fontSize="small" />
             </button>
             <button
               onClick={nextSlide}
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black text-white p-2 rounded-full z-10"
+              className="absolute right-2 top-1/2 transform -translate-y-1/2  text-white p-2 rounded-full z-10"
             >
               <ArrowForwardIosIcon fontSize="small" />
             </button>
