@@ -9,7 +9,6 @@ export default function YouTubeBanner() {
     >
       <div className="absolute inset-0 bg-black bg-opacity-40" />
 
-      {/* Centered Text */}
       <div className="relative z-10 flex items-center justify-center h-full w-full">
         <h1 className="text-white text-3xl md:text-5xl font-bold font-playfair text-center px-4">
           Boost Your YouTube Channel with Stunning Visuals & Creativity

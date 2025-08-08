@@ -8,7 +8,6 @@ import vid1 from "../assets/video.mp4";
 import vid2 from "../assets/video1.mp4";
 
 import Testimonials from "../components/Testimonial";
-import YouTubeBanner from "./YouTubeBanner";
 
 const videos = [vid1, vid2];
 
@@ -75,7 +74,7 @@ const YouTubeShoot = () => {
         />
       </Helmet>
 
-      <YouTubeBanner />
+      
 
       <div className="min-h-screen bg-gray-100 px-4 md:px-6 py-10">
         <div className="max-w-7xl mx-auto text-center">
