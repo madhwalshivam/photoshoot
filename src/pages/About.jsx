@@ -8,41 +8,41 @@ import image4 from '../assets/pre5.jpeg';
 
 function AboutStory() {
   // Memoized Timeline Data
-  const timeline = useMemo(
-    () => [
-      {
-        year: '2012',
-        title: 'The Beginning',
-        description:
-          'Every story begins with a spark, and ours started with a passion for storytelling through the lens. Armed with a vintage camera and a heart full of dreams, we began our journey capturing life’s raw and beautiful moments. What started as a one-person mission soon became a trusted name for cherished memories. This was the foundation of what would eventually evolve into The Picture Town — where every click tells a story.',
-        image: image1,
-        alt: 'Vintage camera photography journey in 2012',
-      },
-      {
-        year: '2016',
-        title: 'Rising to Fame',
-        description:
-          'Our work gained recognition for its distinct visual style and deep emotional storytelling. Featured in leading photography magazines, we proudly received our first international award for wedding photography. Clients chose us not just for pictures, but for the artistic experience. Word of mouth and client love fueled our rapid growth.',
-        image: image2,
-        alt: 'Award-winning wedding photography in 2016',
-      },
-      {
-        year: '2019',
-        title: 'The Picture Town is Born',
-        description:
-          'To meet growing creative demand, we launched *The Picture Town*. Located in Holambi Kalan, Delhi, it quickly earned the reputation of being the **best pre-wedding shoot location in Delhi NCR**. With **50+ themed backdrops**, **200+ cinematic props**, and premium amenities like air-conditioned makeup rooms, our space is a visual playground for photographers and couples alike.',
-        image: image3,
-        alt: 'The Picture Town pre-wedding shoot location in Delhi NCR',
-      },
-      {
-        year: '2024',
-        title: 'Best in Delhi & Beyond',
-        description:
-          'Today, The Picture Town stands as the **foremost pre-wedding and creative shoot destination in Delhi NCR**. With over 1000 love stories captured and a growing creator community, we continue pushing the boundaries of visual storytelling. Perfect for weddings, fashion shoots, music videos, and more — our team ensures a smooth, stress-free experience.',
-        image: image4,
-        alt: 'Best creative shoot location in Delhi NCR in 2024',
-      },
-    ],
+ const timeline = useMemo(
+  () => [
+    {
+      year: '2012',
+      title: 'The Beginning',
+      description:
+        'Every great journey begins with a single frame. In 2012, our passion for storytelling through photography took shape. With a vintage camera and endless creative dreams, we began capturing life’s purest emotions. What started as a small, heartfelt photography journey soon became the foundation for one of the **best photography locations in Delhi NCR** — a place where every click would tell a story worth remembering.',
+      image: image1,
+      alt: 'Photography journey begins in 2012 with vintage camera',
+    },
+    {
+      year: '2016',
+      title: 'Rising to Fame',
+      description:
+        'By 2016, our work had earned recognition for its unique visual style and emotional depth. Featured in top photography magazines and awarded internationally for our wedding photography, we became a trusted choice for couples seeking more than just pictures — they came for the full artistic experience. This growing reputation laid the groundwork for what would soon be known as the **best pre-wedding shoot in Delhi**.',
+      image: image2,
+      alt: 'Award-winning wedding and pre-wedding photography in Delhi 2016',
+    },
+    {
+      year: '2019',
+      title: 'The Picture Town is Born',
+      description:
+        'In 2019, we officially launched *The Picture Town* — now celebrated as the **best pre-wedding shoot location in Delhi NCR**. Located in Holambi Kalan, our venue offers over **50+ themed backdrops**, **200+ cinematic props**, and premium facilities like air-conditioned makeup rooms. From dreamy wedding sets to creative cinematic spaces, it became a visual paradise for photographers, couples, and brands alike.',
+      image: image3,
+      alt: 'The Picture Town best pre-wedding shoot location in Delhi NCR',
+    },
+    {
+      year: '2024',
+      title: 'Best in Delhi & Beyond',
+      description:
+        'Today, *The Picture Town* proudly stands as the **leading photography and creative shoot destination in Delhi NCR**. With over 1000 love stories captured, we’ve hosted countless weddings, fashion shoots, music videos, and maternity sessions. Known for our unmatched backdrops, cinematic flair, and seamless shooting experience, we continue to set the standard for the **best photography location in Delhi NCR** and beyond.',
+      image: image4,
+      alt: 'Leading photography and pre-wedding shoot destination in Delhi NCR 2024',
+    },
+  ],
     []
   );
 

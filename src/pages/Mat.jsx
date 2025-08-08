@@ -26,10 +26,7 @@ const useInView = () => {
       ([entry]) => {
         if (entry.isIntersecting) setVisible(true);
       },
-      {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px",
-      }
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -40,6 +37,26 @@ const useInView = () => {
 };
 
 const Mat = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const openLightbox = (index) => {
+    setCurrentIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => setLightboxOpen(false);
+
+  const prevImage = (e) => {
+    e.stopPropagation();
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+  };
+
+  const nextImage = (e) => {
+    e.stopPropagation();
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
   return (
     <div>
       <Helmet>
@@ -55,7 +72,6 @@ const Mat = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://thepicturetown.com/maternity-shoot-in-delhi" />
-        {/* <meta property="og:image" content="https://yourdomain.com/path/to/cover.jpg" /> */}
       </Helmet>
 
       <MatBanner />
@@ -69,14 +85,14 @@ const Mat = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10 text-justify leading-relaxed">
-  At <span className="font-semibold text-black">The Picture Town</span>, we specialize in
-  crafting heartfelt maternity photoshoots that honor your beautiful journey into motherhood.
-  Recognized for delivering the <span className="font-semibold text-black">best maternity shoots in Delhi NCR</span>,
-  we focus on elegance, comfort, and emotional connection to create images you’ll cherish forever.
-</p>
-
+            At <span className="font-semibold text-black">The Picture Town</span>, we specialize in
+            crafting heartfelt maternity photoshoots that honor your beautiful journey into motherhood.
+            Recognized for delivering the <span className="font-semibold text-black">best maternity shoots in Delhi NCR</span>,
+            we focus on elegance, comfort, and emotional connection to create images you’ll cherish forever.
+          </p>
         </div>
 
+        {/* Image Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
           {images.map((img, index) => {
             const [ref, visible] = useInView();
@@ -85,7 +101,8 @@ const Mat = () => {
               <div
                 key={index}
                 ref={ref}
-                className={`overflow-hidden shadow-md transition-all duration-1000 transform will-change-transform ${
+                onClick={() => openLightbox(index)}
+                className={`overflow-hidden shadow-md transition-all duration-1000 transform will-change-transform cursor-pointer ${
                   visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
                 }`}
               >
@@ -93,7 +110,7 @@ const Mat = () => {
                   src={img}
                   alt={`Maternity Shoot ${index + 1}`}
                   loading="eager"
-                  className="w-full h-[380px] object-cover"
+                  className="w-full h-[380px] object-cover hover:scale-105 transition-transform"
                 />
               </div>
             );
@@ -101,9 +118,50 @@ const Mat = () => {
         </div>
       </div>
 
+      {/* Lightbox Modal */}
+      {lightboxOpen && (
+        <div
+          className="fixed inset-0 bg-black/90 flex items-center justify-center z-50"
+          onClick={closeLightbox}
+        >
+          {/* Close Button */}
+          <button
+            className="absolute top-6 right-6 text-white text-3xl font-bold"
+            onClick={closeLightbox}
+          >
+            ✕
+          </button>
+
+          {/* Prev Button */}
+          <button
+            className="absolute left-6 text-white text-4xl"
+            onClick={prevImage}
+          >
+            ❮
+          </button>
+
+          {/* Image */}
+          <img
+            src={images[currentIndex]}
+            alt="Maternity Large View"
+            className="max-w-[90%] max-h-[80%] object-contain rounded-lg"
+            onClick={(e) => e.stopPropagation()}
+          />
+
+          {/* Next Button */}
+          <button
+            className="absolute right-6 text-white text-4xl"
+            onClick={nextImage}
+          >
+            ❯
+          </button>
+        </div>
+      )}
+
       <Testimonials />
     </div>
   );
 };
 
 export default Mat;
+

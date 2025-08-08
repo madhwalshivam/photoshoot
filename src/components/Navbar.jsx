@@ -22,7 +22,7 @@ export default function Header() {
 
   const rightNavItems = [
     { name: 'Videos', href: '/videos' },
-    { name: 'Contact & Pricing', href: '/contact' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   const services = [
@@ -75,17 +75,16 @@ export default function Header() {
     'Beach',
   ];
 
-  // Mouse enter: clear timeout & show instantly
+
   const handleServicesEnter = () => {
     clearTimeout(servicesTimeoutRef.current);
     setShowServicesDropdown(true);
   };
 
-  // Mouse leave: start 2s delay before hiding
   const handleServicesLeave = () => {
     servicesTimeoutRef.current = setTimeout(() => {
       setShowServicesDropdown(false);
-    }, 2000);
+    }, 500);
   };
 
   const handleSetsEnter = () => {
@@ -96,7 +95,7 @@ export default function Header() {
   const handleSetsLeave = () => {
     setsTimeoutRef.current = setTimeout(() => {
       setShowSetsDropdown(false);
-    }, 2000);
+    }, 500);
   };
 
   return (
@@ -107,7 +106,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-12">
             {/* Left Nav Items */}
             {navItems.map((item) => (
-              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
+              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-yellow-400 font-medium transition ">
                 {item.name}
               </Link>
             ))}
@@ -118,7 +117,7 @@ export default function Header() {
               onMouseEnter={handleServicesEnter}
               onMouseLeave={handleServicesLeave}
             >
-              <button className="text-white font-playfair hover:text-gray-300 font-medium flex items-center gap-1">
+              <button className="text-white font-playfair hover:text-yellow-400 font-medium flex items-center gap-1">
                 Services <ExpandMoreIcon fontSize="small" />
               </button>
               {showServicesDropdown && (
@@ -143,7 +142,7 @@ export default function Header() {
               onMouseEnter={handleSetsEnter}
               onMouseLeave={handleSetsLeave}
             >
-              <button className="text-white font-playfair hover:text-gray-300 font-medium flex items-center gap-1">
+              <button className="text-white font-playfair hover:text-yellow-400 font-medium flex items-center gap-1">
                 Sets <ExpandMoreIcon fontSize="small" />
               </button>
               {showSetsDropdown && (
@@ -162,7 +161,7 @@ export default function Header() {
 
             {/* Right Nav Items */}
             {rightNavItems.map((item) => (
-              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
+              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-yellow-400 font-medium transition">
                 {item.name}
               </Link>
             ))}

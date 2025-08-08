@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import VideoBanner from "../components/VideoBanner";
 import Testimonials from "../components/Testimonial";
 import { Helmet } from "react-helmet-async";
@@ -19,6 +19,8 @@ export default function OurVideos() {
     "q1ddvSvu7BA",
   ];
 
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   const chunkVideos = (videos) => {
     const chunks = [];
     for (let i = 0; i < videos.length; i += 4) {
@@ -37,7 +39,10 @@ export default function OurVideos() {
           name="description"
           content="Watch the most cinematic pre-wedding, maternity, and baby shoot videos captured at stunning locations in Delhi by The Picture Town."
         />
-        <meta name="keywords" content="Pre Wedding Shoot Delhi, Maternity Videos, Baby Shoot Location, Best Wedding Photographer in Delhi" />
+        <meta
+          name="keywords"
+          content="Pre Wedding Shoot Delhi, Maternity Videos, Baby Shoot Location, Best Wedding Photographer in Delhi"
+        />
         <link rel="canonical" href="https://thepicturetown.com/videos" />
       </Helmet>
 
@@ -64,7 +69,8 @@ export default function OurVideos() {
               {chunk.map((videoId, index) => (
                 <div
                   key={index}
-                  className="overflow-hidden border border-gray-300 rounded-lg shadow-md hover:shadow-yellow-500 transition-all"
+                  onClick={() => setSelectedVideo(videoId)}
+                  className="overflow-hidden border border-gray-300 rounded-lg shadow-md hover:shadow-yellow-500 transition-all cursor-pointer"
                 >
                   <div className="aspect-w-16 aspect-h-15">
                     <iframe
@@ -84,7 +90,36 @@ export default function OurVideos() {
         </div>
       </section>
 
+      {/* Lightbox Video Modal */}
+      {selectedVideo && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+          onClick={() => setSelectedVideo(null)}
+        >
+          <div
+            className="relative w-full max-w-5xl p-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <iframe
+              className="w-full h-[80vh] rounded-lg"
+              src={`https://www.youtube.com/embed/${selectedVideo}?autoplay=1`}
+              title="Enlarged Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <button
+              onClick={() => setSelectedVideo(null)}
+              className="absolute -top-6 right-0 text-white text-4xl font-bold"
+            >
+              &times;
+            </button>
+          </div>
+        </div>
+      )}
+
       <Testimonials />
     </>
   );
 }
+
