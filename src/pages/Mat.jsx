@@ -60,7 +60,7 @@ const Mat = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Maternity Shoots in Delhi NCR</title>
+        <title>The Picture Town | Best Maternity Shoots location in Delhi NCR</title>
         <meta
           name="description"
           content="The Picture Town offers the best maternity photoshoots in Delhi NCR. Capture your motherhood journey with timeless and elegant photography."
@@ -87,7 +87,7 @@ const Mat = () => {
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10 text-justify leading-relaxed">
             At <span className="font-semibold text-black">The Picture Town</span>, we specialize in
             crafting heartfelt maternity photoshoots that honor your beautiful journey into motherhood.
-            Recognized for delivering the <span className="font-semibold text-black">best maternity shoots in Delhi NCR</span>,
+            Recognized for delivering the <span className="font-semibold text-black">best maternity shoots location in Delhi NCR</span>,
             we focus on elegance, comfort, and emotional connection to create images you’ll cherish forever.
           </p>
         </div>

@@ -28,14 +28,13 @@ export default function Header() {
   const services = [
     { name: 'Songs Shoot', href: '/song-shoot-in-delhi' },
     { name: 'Fashion Shoot', href: '/fashion-shoot-in-delhi' },
-    { name: 'Commercial Shoot', href: '/commercial' },
-    { name: 'Brand Shoot', href: '/brand' },
-    { name: 'Family Shoot', href: '/family' },
-    { name: 'Instagram Reel Shoot', href: '/instagram-reel' },
-    { name: 'YouTube Blog Shoot', href: '/youtube-blog' },
-    { name: 'Anniversary Shoot', href: '/anniversary' },
+    { name: 'Commercial Shoot', href: '/commercial-shoot-in-delhi' },
+    { name: 'Brand Shoot', href: '/brand-shoot-in-delhi' },
+    { name: 'Nature Shoot', href: '/nature-shoot-in-delhi' },
+    { name: 'Instagram Reel Shoot', href: '/instagram-reel-shoot-in-delhi' },
+    { name: 'YouTube Blog Shoot', href: '/youtube-blog-shoot-in-delhi' },
     { name: 'Maternity Shoot', href: '/maternity-shoot-in-delhi' },
-    { name: 'Baby Shoot', href: '/baby-shoot' },
+    { name: 'Baby Shoot', href: '/baby-shoot-in-delhi' },
   ];
 
   const sets = [

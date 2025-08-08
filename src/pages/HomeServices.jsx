@@ -4,16 +4,16 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import image1 from '../assets/pre1.jpg';
+import image1 from '../assets/pre2.jpg';
 import image2 from '../assets/baby1.jpg';
 import image3 from '../assets/MAT.jpeg';
 import image4 from '../assets/f4.jpg';
 import image5 from '../assets/co.jpg';
 import image6 from '../assets/f5.jpg';
-import image7 from '../assets/pre7.jpeg';
-import image8 from '../assets/f6.jpg';
+import image7 from '../assets/s5.png';
 import image9 from '../assets/f7.jpg';
 import image10 from '../assets/f9.jpg';
+import image11 from '../assets/C .jpeg';
 
 const services = [
   {
@@ -42,11 +42,6 @@ const services = [
     desc: "Showcase your brand’s identity with powerful visuals."
   },
   {
-    title: "Family Shoot",
-    image: image8,
-    desc: "Cherish priceless family moments with elegant photography."
-  },
-  {
     title: "Instagram Reel Shoot",
     image: image9,
     desc: "Trendy and creative content designed for your IG audience."
@@ -57,9 +52,9 @@ const services = [
     desc: "High-quality visuals to elevate your YouTube vlogs."
   },
   {
-    title: "Anniversary Shoot",
-    image: image1,
-    desc: "Celebrate your journey together with timeless pictures."
+    title: "Nature Shoot",
+    image: image11,
+    desc: "Capture unforgettable moments surrounded by nature’s beauty and serenity."
   },
   {
     title: "Maternity Shoot",

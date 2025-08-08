@@ -58,7 +58,7 @@ const Song = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Song Shoots in Delhi NCR</title>
+        <title>The Picture Town | Best Song Shoots location in Delhi NCR</title>
         <meta
           name="description"
           content="The Picture Town offers the best song shoots in Delhi NCR. Capture your music videos and creative moments with cinematic and elegant photography."
@@ -84,7 +84,7 @@ const Song = () => {
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10 text-justify leading-relaxed">
             At <span className="font-semibold text-black">The Picture Town</span>, we specialize in delivering the{" "}
-            <span className="font-semibold text-black">best song shoot in Delhi</span>, blending cinematic artistry with
+            <span className="font-semibold text-black">best song shoot location in Delhi</span>, blending cinematic artistry with
             emotional depth. Whether it’s a soulful ballad or a high-energy track, our expert team captures every beat,
             lyric, and emotion in stunning visuals that bring your music to life. From creative concepts to flawless
             execution, we ensure your song video becomes a masterpiece you’ll cherish and replay forever.

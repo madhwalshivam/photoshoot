@@ -12,6 +12,11 @@ import PhotoshootContact from './pages/Contact.jsx';
 import AboutStory from './pages/About.jsx';
 import Fashion from './pages/Fashion.jsx';
 import Song from './pages/Song.jsx';
+import Comm from './pages/Comm.jsx';
+import Brand from './pages/Brand.jsx';
+import Baby from './pages/Baby.jsx';
+import Nature from './pages/Nature.jsx';
+import InstaShoot from './pages/Insta.jsx';
 
 function App() {
   return (
@@ -26,6 +31,11 @@ function App() {
          <Route path="/about" element={<AboutStory/>} />
          <Route path="/fashion-shoot-in-delhi" element={<Fashion/>} />
          <Route path="/song-shoot-in-delhi" element={<Song/>} />
+         <Route path="/commercial-shoot-in-delhi" element={<Comm/>} />
+          <Route path="/brand-shoot-in-delhi" element={<Brand/>} />
+          <Route path="/baby-shoot-in-delhi" element={<Baby/>} />
+           <Route path="/nature-shoot-in-delhi" element={<Nature/>} />
+           <Route path="/instagram-reel-shoot-in-delhi" element={<InstaShoot/>} />
       </Routes>
       <Footer />
     </HelmetProvider>

@@ -61,7 +61,7 @@ const Fashion = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Fashion Shoots in Delhi NCR</title>
+        <title>The Picture Town | Best Fashion Shoots location in Delhi NCR</title>
         <meta
           name="description"
           content="The Picture Town offers the best maternity photoshoots in Delhi NCR. Capture your motherhood journey with timeless and elegant photography."
@@ -90,7 +90,7 @@ const Fashion = () => {
             professionally curated <span className="font-semibold text-black">fashion photoshoots</span>. Whether it's
             for a portfolio, brand campaign, or personal styling session, we specialize in bold, expressive, and
             high-end imagery that defines your unique look. Trusted as one of the{" "}
-            <span className="font-semibold text-black">top fashion photographers in Delhi NCR</span>, we blend
+            <span className="font-semibold text-black">top fashion photographers location in Delhi NCR</span>, we blend
             creativity and expertise to deliver magazine-quality visuals every time.
           </p>
         </div>

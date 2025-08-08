@@ -1,7 +1,7 @@
 import React from "react";
-import bgImage from "../assets/maternity shoot.jpg";
+import bgImage from "../assets/babyy.jpg"; 
 
-export default function MatBanner() {
+export default function BabyBanner() {
   return (
     <section
       className="h-[300px] bg-cover bg-center relative"
@@ -13,7 +13,7 @@ export default function MatBanner() {
       {/* Centered Text */}
       <div className="relative z-10 flex items-center justify-center h-full w-full">
         <h1 className="text-white text-3xl md:text-5xl font-bold font-playfair text-center px-4">
-         Embracing Motherhood, One Magical Moment at a Time
+          Capturing the Sweetest Smiles & Precious Baby Moments
         </h1>
       </div>
     </section>
