@@ -1,6 +1,8 @@
 // src/components/HomeService.jsx
+// src/components/HomeService.jsx
 import React from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';  // Import Link
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -68,6 +70,19 @@ const services = [
   }
 ];
 
+const slugMap = {
+  "Pre-Wedding Shoot": "/pre-wedding-photography-delhi",
+  "Songs Shoot": "/song-shoot-in-delhi",
+  "Fashion Shoot": "/fashion-shoot-in-delhi",
+  "Commercial Shoot": "/commercial-shoot-in-delhi",
+  "Brand Shoot": "/brand-shoot-in-delhi",
+  "Instagram Reel Shoot": "/instagram-reel-shoot-in-delhi",
+  "YouTube Blog Shoot": "/youtube-blog-shoot-in-delhi",
+  "Nature Shoot": "/nature-shoot-in-delhi",
+  "Maternity Shoot": "/maternity-shoot-in-delhi",
+  "Baby Shoot": "/baby-shoot-in-delhi"
+};
+
 const HomeService = () => {
   const settings = {
     dots: true,
@@ -105,19 +120,21 @@ const HomeService = () => {
         <Slider {...settings}>
           {services.map((service, index) => (
             <div key={index} className="px-4">
-              <div
-                className="relative h-[400px] rounded-lg overflow-hidden shadow-lg group"
-                style={{
-                  backgroundImage: `url(${service.image})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center'
-                }}
-              >
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 transition-opacity duration-300 group-hover:bg-opacity-60">
-                  <h3 className="text-white font-playfair text-xl font-bold">{service.title}</h3>
-                  <p className="text-white text-sm tracking-wide mt-1">{service.desc}</p>
+              <Link to={slugMap[service.title]} className="block">
+                <div
+                  className="relative h-[400px] rounded-lg overflow-hidden shadow-lg group"
+                  style={{
+                    backgroundImage: `url(${service.image})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                  }}
+                >
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 transition-opacity duration-300 group-hover:bg-opacity-60">
+                    <h3 className="text-white font-playfair text-xl font-bold">{service.title}</h3>
+                    <p className="text-white text-sm tracking-wide mt-1">{service.desc}</p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </Slider>
@@ -127,6 +144,3 @@ const HomeService = () => {
 };
 
 export default HomeService;
-
-
-

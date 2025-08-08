@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async'; // ✅ Import HelmetProvider
-
+import { HelmetProvider } from 'react-helmet-async'; 
 import Header from './components/Navbar.jsx';
 import Home from './pages/Home.jsx'; 
 import Footer from './components/Footer.jsx';
@@ -17,11 +16,14 @@ import Brand from './pages/Brand.jsx';
 import Baby from './pages/Baby.jsx';
 import Nature from './pages/Nature.jsx';
 import InstaShoot from './pages/Insta.jsx';
+import YouTubeShoot from './pages/Youtube.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
   return (
     <HelmetProvider>
       <Header />
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/videos" element={<OurVideos />} />
@@ -36,6 +38,7 @@ function App() {
           <Route path="/baby-shoot-in-delhi" element={<Baby/>} />
            <Route path="/nature-shoot-in-delhi" element={<Nature/>} />
            <Route path="/instagram-reel-shoot-in-delhi" element={<InstaShoot/>} />
+            <Route path="/youtube-blog-shoot-in-delhi" element={<YouTubeShoot/>} />
       </Routes>
       <Footer />
     </HelmetProvider>
