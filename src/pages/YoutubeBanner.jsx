@@ -1,7 +1,7 @@
 import React from "react";
 import bgImage from "../assets/com.jpg";
 
-export default function You() {
+export default function YoutubeBanner() {
   return (
     <section
       className="h-[300px] bg-cover bg-center relative"
