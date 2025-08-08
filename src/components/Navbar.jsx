@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -10,6 +10,9 @@ export default function Header() {
   const [showSetsDropdown, setShowSetsDropdown] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [mobileSetsOpen, setMobileSetsOpen] = useState(false);
+
+  const servicesTimeoutRef = useRef(null);
+  const setsTimeoutRef = useRef(null);
 
   const navItems = [
     { name: 'Home', href: '/' },
@@ -23,7 +26,7 @@ export default function Header() {
   ];
 
   const services = [
-    { name: 'Songs Shoot', href: '/songs' },
+    { name: 'Songs Shoot', href: '/song-shoot-in-delhi' },
     { name: 'Fashion Shoot', href: '/fashion-shoot-in-delhi' },
     { name: 'Commercial Shoot', href: '/commercial' },
     { name: 'Brand Shoot', href: '/brand' },
@@ -72,14 +75,36 @@ export default function Header() {
     'Beach',
   ];
 
+  // Mouse enter: clear timeout & show instantly
+  const handleServicesEnter = () => {
+    clearTimeout(servicesTimeoutRef.current);
+    setShowServicesDropdown(true);
+  };
+
+  // Mouse leave: start 2s delay before hiding
+  const handleServicesLeave = () => {
+    servicesTimeoutRef.current = setTimeout(() => {
+      setShowServicesDropdown(false);
+    }, 2000);
+  };
+
+  const handleSetsEnter = () => {
+    clearTimeout(setsTimeoutRef.current);
+    setShowSetsDropdown(true);
+  };
+
+  const handleSetsLeave = () => {
+    setsTimeoutRef.current = setTimeout(() => {
+      setShowSetsDropdown(false);
+    }, 2000);
+  };
+
   return (
     <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
       <nav className="px-6 py-4">
         <div className="flex items-center justify-between lg:justify-center relative">
-
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center space-x-12">
-
             {/* Left Nav Items */}
             {navItems.map((item) => (
               <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
@@ -90,8 +115,8 @@ export default function Header() {
             {/* Services Dropdown */}
             <div
               className="relative"
-              onMouseEnter={() => setShowServicesDropdown(true)}
-              onMouseLeave={() => setShowServicesDropdown(false)}
+              onMouseEnter={handleServicesEnter}
+              onMouseLeave={handleServicesLeave}
             >
               <button className="text-white font-playfair hover:text-gray-300 font-medium flex items-center gap-1">
                 Services <ExpandMoreIcon fontSize="small" />
@@ -112,14 +137,11 @@ export default function Header() {
               The Picture Town
             </Link>
 
-            {/* Right Nav Items */}
-            
-
-            {/* Sets Dropdown (Right side) */}
+            {/* Sets Dropdown */}
             <div
               className="relative"
-              onMouseEnter={() => setShowSetsDropdown(true)}
-              onMouseLeave={() => setShowSetsDropdown(false)}
+              onMouseEnter={handleSetsEnter}
+              onMouseLeave={handleSetsLeave}
             >
               <button className="text-white font-playfair hover:text-gray-300 font-medium flex items-center gap-1">
                 Sets <ExpandMoreIcon fontSize="small" />
@@ -137,6 +159,8 @@ export default function Header() {
                 </div>
               )}
             </div>
+
+            {/* Right Nav Items */}
             {rightNavItems.map((item) => (
               <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-gray-300 font-medium transition">
                 {item.name}

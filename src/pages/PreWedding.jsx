@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import PreBanner from "./PreBanner";
 
 import img1 from "../assets/pre1.jpg";
@@ -48,10 +49,11 @@ const images = [
   img1, img2, img3, img4, img5, img6,
   img30, img31, img32, img33, img34, img35, img36, img37, img38, img39,
   img40, img41, img42, img43, img44, img45, img46, img47, img48, img49,
-  img50, img51, img52, img53, img54, img55, img56, img57, img58, img59, img60,img61,img62,img63
+  img50, img51, img52, img53, img54, img55, img56, img57, img58, img59,
+  img60, img61, img62, img63
 ];
 
-// Custom hook to detect scroll into view
+// Custom hook for scroll into view
 const useInView = () => {
   const ref = useRef();
   const [visible, setVisible] = useState(false);
@@ -63,7 +65,7 @@ const useInView = () => {
       },
       {
         threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px", // 👈 important for mobile triggering
+        rootMargin: "0px 0px -50px 0px",
       }
     );
 
@@ -77,25 +79,43 @@ const useInView = () => {
 const PreWeddingPhotos = () => {
   return (
     <div>
+      {/* SEO Meta Tags */}
+      <Helmet>
+        <title>Pre-Wedding Shoot in Delhi NCR | The Picture Town</title>
+        <meta
+          name="description"
+          content="Explore our stunning pre-wedding shoot gallery at The Picture Town. Best shoot locations in Delhi NCR with cinematic backdrops for your love story."
+        />
+        <meta
+          name="keywords"
+          content="Pre-Wedding Shoot, Delhi NCR Photography, Cinematic Shoot Location, Wedding Photography, The Picture Town Gallery"
+        />
+        <link rel="canonical" href="https://thepicturetown.com/pre-wedding-photography-delhi" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Pre-Wedding Shoot Gallery | The Picture Town" />
+        <meta property="og:description" content="See our beautiful pre-wedding shoots in Delhi NCR with dreamy locations and cinematic props." />
+        <meta property="og:image" content="https://thepicturetown.com/assets/pre1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://thepicturetown.com/pre-wedding-photography-delhi" />
+      </Helmet>
+
       <PreBanner />
 
       <div className="min-h-screen bg-gray-100 px-4 md:px-6 py-10">
-      <div className="max-w-7xl mx-auto text-center">
-  <p className="text-2xl md:text-4xl font-bold mb-4 font-playfair text-black">
-    Capturing Your Love Story<br />
-    <p className="text-yellow-400">at Dreamy Locations</p>
-    
-  </p>
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-2xl md:text-4xl font-bold mb-4 font-playfair text-black">
+            Capturing Your Love Story<br />
+            <span className="text-yellow-400">at Dreamy Locations</span>
+          </p>
+          <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
+            At <span className="font-semibold text-black">The Picture Town</span>, we turn your pre-wedding moments into cinematic memories. 
+            Recognized for the <span className="font-semibold text-black">best pre-wedding shoots in Delhi NCR</span>, our handpicked romantic spots 
+            and artistic direction bring your love story to life through stunning visuals.
+          </p>
+        </div>
 
- <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-  At <span className="font-semibold text-black">The Picture Town</span>, we turn your pre-wedding moments into cinematic memories. 
-  Recognized for the <span className="font-semibold text-black">best pre-wedding shoots in Delhi NCR</span>, our handpicked romantic spots 
-  and artistic direction bring your love story to life through stunning visuals.
-</p>
-
-</div>
-
-
+        {/* Image Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
           {images.map((img, index) => {
             const [ref, visible] = useInView();
@@ -111,7 +131,7 @@ const PreWeddingPhotos = () => {
                 <img
                   src={img}
                   alt={`Pre-Wedding ${index + 1}`}
-                  loading="eager"
+                  loading="lazy"
                   className="w-full h-[300px] object-cover"
                 />
               </div>
@@ -119,12 +139,13 @@ const PreWeddingPhotos = () => {
           })}
         </div>
       </div>
-      <Testimonials/>
+      <Testimonials />
     </div>
   );
 };
 
 export default PreWeddingPhotos;
+
 
 
 

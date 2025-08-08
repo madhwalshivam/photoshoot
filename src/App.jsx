@@ -11,6 +11,7 @@ import Mat from './pages/Mat.jsx';
 import PhotoshootContact from './pages/Contact.jsx';
 import AboutStory from './pages/About.jsx';
 import Fashion from './pages/Fashion.jsx';
+import Song from './pages/Song.jsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<PhotoshootContact/>} />
          <Route path="/about" element={<AboutStory/>} />
          <Route path="/fashion-shoot-in-delhi" element={<Fashion/>} />
+         <Route path="/song-shoot-in-delhi" element={<Song/>} />
       </Routes>
       <Footer />
     </HelmetProvider>

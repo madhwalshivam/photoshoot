@@ -54,7 +54,7 @@ const Mat = () => {
           content="Heartfelt maternity photoshoots that honor your beautiful journey into motherhood. Trusted by families in Delhi NCR."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://localhost:5173/maternity-shoot-in-delhi" />
+        <meta property="og:url" content="https://thepicturetown.com/maternity-shoot-in-delhi" />
         {/* <meta property="og:image" content="https://yourdomain.com/path/to/cover.jpg" /> */}
       </Helmet>
 
