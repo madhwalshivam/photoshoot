@@ -92,20 +92,20 @@ const HomeService = () => {
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 3000,
-    arrows: true, // Arrows will show on desktop
+    arrows: true, 
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          arrows: false, // Hide arrows on tablets
+          arrows: false, 
         }
       },
       {
         breakpoint: 640,
         settings: {
           slidesToShow: 1,
-          arrows: false, // Hide arrows on mobile
+          arrows: false, 
         }
       }
     ]
