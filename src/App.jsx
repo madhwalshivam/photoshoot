@@ -18,6 +18,14 @@ import Nature from './pages/Nature.jsx';
 import InstaShoot from './pages/Insta.jsx';
 import YouTubeShoot from './pages/Youtube.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
+import Glass from './pages/Glass.jsx';
+import Red from './pages/Red.jsx';
+import House from './pages/House.jsx';
+import Tree from './pages/Tree.jsx';
+import Sant from './pages/Santorini.jsx';
+import Roman from './pages/Roman.jsx';
+import SwimmingPool from './pages/Swimming.jsx';
+import Gazebo from './pages/Gazebo.jsx';
 
 function App() {
   return (
@@ -39,6 +47,14 @@ function App() {
            <Route path="/nature-shoot-in-delhi" element={<Nature/>} />
            <Route path="/instagram-reel-shoot-in-delhi" element={<InstaShoot/>} />
             <Route path="/youtube-blog-shoot-in-delhi" element={<YouTubeShoot/>} />
+             <Route path="/glasshouse-photoshoot-location-in-delhi" element={<Glass/>} />
+              <Route path="/red-courtyard-haveli-photoshoot-location-in-delhi" element={<Red/>} />
+              <Route path="/scottish-house-photoshoot-location-in-delhi" element={<House/>} />
+               <Route path="/tree-house-photoshoot-location-in-delhi" element={<Tree/>} />
+                <Route path="/santorini-photoshoot-location-in-delhi" element={<Sant/>} />
+                  <Route path="/roman-pillar-photoshoot-location-in-delhi" element={<Roman/>} />
+                   <Route path="/swimming-pool-photoshoot-location-in-delhi" element={<SwimmingPool/>} />
+                    <Route path="/gazebo-photoshoot-location-in-delhi" element={<Gazebo/>} />
       </Routes>
       <Footer />
     </HelmetProvider>

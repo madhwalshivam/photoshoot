@@ -38,42 +38,41 @@ export default function Header() {
   ];
 
   const sets = [
-    'Glasshouse',
-    'Red Contrard Haveli',
-    'Scottish House',
-    'Tree House',
-    'Santorini',
-    'Roman Pillar',
-    'Swimming Pool',
-    'Gazebo',
-    'Marry Me',
-    'Library',
-    'Kitchen',
-    'Bar',
-    'Kurbani',
-    'Lounge',
-    'Bench',
-    'Tubelight',
-    'Village',
-    'Wheel Wheel Spanish Cafe',
-    'Windmill',
-    'Red Piano + Tree',
-    'Picnic',
-    'Madhuban',
-    'Junkyard Red Car',
-    'Bonfire',
-    'Bricked Arches',
-    'Back Archies',
-    'Pillar Walk',
-    'Bulb Set',
-    'Colour Wall',
-    'Swing Set',
-    'Foodplum',
-    'Railway Station',
-    'London Street',
-    'Beach',
+    { name: 'Glasshouse', href: '/glasshouse-photoshoot-location-in-delhi' },
+    { name: 'Red Courtyard Haveli', href: '/red-courtyard-haveli-photoshoot-location-in-delhi' },
+    { name: 'Scottish House', href: '/scottish-house-photoshoot-location-in-delhi' },
+    { name: 'Tree House', href: '/tree-house-photoshoot-location-in-delhi' },
+    { name: 'Santorini', href: '/santorini-photoshoot-location-in-delhi' },
+    { name: 'Roman Pillar', href: '/roman-pillar-photoshoot-location-in-delhi' },
+    { name: 'Swimming Pool', href: '/swimming-pool-photoshoot-location-in-delhi' },
+    { name: 'Gazebo', href: '/gazebo-photoshoot-location-in-delhi' },
+    { name: 'Marry Me', href: '/marry-me-photoshoot-location-in-delhi' },
+    { name: 'Library', href: '/library-photoshoot-location-in-delhi' },
+    { name: 'Kitchen', href: '/kitchen-photoshoot-location-in-delhi' },
+    { name: 'Bar', href: '/bar-photoshoot-location-in-delhi' },
+    { name: 'Kurbani', href: '/kurbani-photoshoot-location-in-delhi' },
+    { name: 'Lounge', href: '/lounge-photoshoot-location-in-delhi' },
+    { name: 'Bench', href: '/bench-photoshoot-location-in-delhi' },
+    { name: 'Tubelight', href: '/tubelight-photoshoot-location-in-delhi' },
+    { name: 'Village', href: '/village-photoshoot-location-in-delhi' },
+    { name: 'Wheel Wheel Spanish Cafe', href: '/wheel-wheel-spanish-cafe-photoshoot-location-in-delhi' },
+    { name: 'Windmill', href: '/windmill-photoshoot-location-in-delhi' },
+    { name: 'Red Piano + Tree', href: '/red-piano-tree-photoshoot-location-in-delhi' },
+    { name: 'Picnic', href: '/picnic-photoshoot-location-in-delhi' },
+    { name: 'Madhuban', href: '/madhuban-photoshoot-location-in-delhi' },
+    { name: 'Junkyard Red Car', href: '/junkyard-red-car-photoshoot-location-in-delhi' },
+    { name: 'Bonfire', href: '/bonfire-photoshoot-location-in-delhi' },
+    { name: 'Bricked Arches', href: '/bricked-arches-photoshoot-location-in-delhi' },
+    { name: 'Back Archies', href: '/back-archies-photoshoot-location-in-delhi' },
+    { name: 'Pillar Walk', href: '/pillar-walk-photoshoot-location-in-delhi' },
+    { name: 'Bulb Set', href: '/bulb-set-photoshoot-location-in-delhi' },
+    { name: 'Colour Wall', href: '/colour-wall-photoshoot-location-in-delhi' },
+    { name: 'Swing Set', href: '/swing-set-photoshoot-location-in-delhi' },
+    { name: 'Foodplum', href: '/foodplum-photoshoot-location-in-delhi' },
+    { name: 'Railway Station', href: '/railway-station-photoshoot-location-in-delhi' },
+    { name: 'London Street', href: '/london-street-photoshoot-location-in-delhi' },
+    { name: 'Beach', href: '/beach-photoshoot-location-in-delhi' },
   ];
-
 
   const handleServicesEnter = () => {
     clearTimeout(servicesTimeoutRef.current);
@@ -103,9 +102,8 @@ export default function Header() {
         <div className="flex items-center justify-between lg:justify-center relative">
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center space-x-12">
-            {/* Left Nav Items */}
             {navItems.map((item) => (
-              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-yellow-400 font-medium transition ">
+              <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-yellow-400 font-medium transition">
                 {item.name}
               </Link>
             ))}
@@ -122,7 +120,7 @@ export default function Header() {
               {showServicesDropdown && (
                 <div className="absolute top-full font-playfair left-0 mt-2 w-60 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20">
                   {services.map((item) => (
-                    <Link key={item.name} to={item.href} className="block px-6 py-1 text-gray-800 hover:bg-gray-100">
+                    <Link key={item.href} to={item.href} className="block px-6 py-1 text-gray-800 hover:bg-gray-100">
                       {item.name}
                     </Link>
                   ))}
@@ -130,7 +128,7 @@ export default function Header() {
               )}
             </div>
 
-            {/* Logo in Center */}
+            {/* Logo */}
             <Link to="/" className="text-3xl font-playfair text-white mx-8">
               The Picture Town
             </Link>
@@ -147,18 +145,18 @@ export default function Header() {
               {showSetsDropdown && (
                 <div className="absolute top-full font-playfair right-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-white/20 max-h-60 overflow-y-auto">
                   {sets.map((set) => (
-                    <div
-                      key={set}
-                      className="px-6 py-1 hover:bg-gray-100 text-gray-800 cursor-pointer"
+                    <Link
+                      key={set.href}
+                      to={set.href}
+                      className="block px-6 py-1 hover:bg-gray-100 text-gray-800"
                     >
-                      {set}
-                    </div>
+                      {set.name}
+                    </Link>
                   ))}
                 </div>
               )}
             </div>
 
-            {/* Right Nav Items */}
             {rightNavItems.map((item) => (
               <Link key={item.name} to={item.href} className="text-white font-playfair hover:text-yellow-400 font-medium transition">
                 {item.name}
@@ -171,7 +169,7 @@ export default function Header() {
             The Picture Town
           </Link>
 
-          {/* Mobile Menu Toggle */}
+          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="lg:hidden text-white text-2xl"
@@ -202,14 +200,14 @@ export default function Header() {
               >
                 Services
                 <ExpandMoreIcon
-                  className={`transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`}
+                  className={`transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`}
                 />
               </button>
               {mobileServicesOpen && (
                 <div className="pl-6 max-h-60 overflow-y-auto">
                   {services.map((item) => (
                     <Link
-                      key={item.name}
+                      key={item.href}
                       to={item.href}
                       className="block py-2 text-white hover:text-gray-300"
                       onClick={() => setIsMenuOpen(false)}
@@ -229,15 +227,20 @@ export default function Header() {
               >
                 Sets
                 <ExpandMoreIcon
-                  className={`transition-transform ${mobileSetsOpen ? "rotate-180" : ""}`}
+                  className={`transition-transform ${mobileSetsOpen ? 'rotate-180' : ''}`}
                 />
               </button>
               {mobileSetsOpen && (
                 <div className="pl-6 pb-2 max-h-60 overflow-y-auto">
                   {sets.map((set) => (
-                    <div key={set} className="py-1 text-white text-sm">
-                      {set}
-                    </div>
+                    <Link
+                      key={set.href}
+                      to={set.href}
+                      className="block py-1 text-white text-sm"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {set.name}
+                    </Link>
                   ))}
                 </div>
               )}
