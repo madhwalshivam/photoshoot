@@ -48,7 +48,6 @@ import Go47 from "../assets/Go (47).jpg";
 import Go48 from "../assets/Go (48).jpg";
 import Go49 from "../assets/Go (49).jpg";
 import Go50 from "../assets/Go (50).jpg";
-import Go2 from "../assets/Go (2).jpg";
 
 import Testimonials from "../components/Testimonial";
 import GazeboBanner from "./GazeeboBanner";
@@ -59,7 +58,7 @@ const images = [
   Go11, Go12, Go13, Go14, Go15, Go17, Go18, Go19, Go20,
   Go21, Go22, Go23, Go24, Go25, Go26, Go27, Go28, Go29, Go30,
   Go31, Go32, Go33, Go34, Go35, Go36, Go37, Go38, Go39, Go40,
-  Go41, Go42, Go43, Go44, Go45, Go46, Go47, Go48, Go49, Go50,Go2, Go3,
+  Go41, Go42, Go43, Go44, Go45, Go46, Go47, Go48, Go49, Go50, Go3,
 ];
 
 const useInView = () => {
