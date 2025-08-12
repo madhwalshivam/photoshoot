@@ -10,7 +10,7 @@ import BAR8 from "../assets/BAR (8).jpg";
 import BAR9 from "../assets/BAR (9).jpg";
 import BAR10 from "../assets/BAR (10).jpg";
 import BAR11 from "../assets/BAR (11).jpg";
-import BAR12 from "../assets/BAR.jpg";
+import BAR12 from "../assets/bar.jpg";
 
 import Testimonials from "../components/Testimonial";
 import BarSetBanner from "./BarBanner";
