@@ -8,7 +8,7 @@ import sp5 from "../assets/SWIMMING POOL (5).jpg";
 import sp6 from "../assets/SWIMMING POOL (6).jpg";
 import sp7 from "../assets/SWIMMING POOL (7).jpg";
 import sp8 from "../assets/SWIMMING POOL (8).jpg";
-import sp9 from "../assets/SWIMMING POOL (9).jpg";
+import sp9 from "../assets/swimming.jpg";
 import sp10 from "../assets/SWIMMING POOL (10).jpg";
 import sp11 from "../assets/SWIMMING POOL (11).jpg";
 import sp12 from "../assets/SWIMMING POOL (12).jpg";

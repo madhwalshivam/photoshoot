@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/swi.avif";
+import bgImage from "../assets/swimming.jpg";
 
 export default function SwimmingPoolBanner() {
   return (
