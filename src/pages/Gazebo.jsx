@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Go1 from "../assets/Go (1).jpeg";
-import Go2 from "../assets/Go (2).jpg";
 import Go3 from "../assets/Go (3).jpg";
 import Go4 from "../assets/Go (4).jpg";
 import Go5 from "../assets/Go (5).jpg";
@@ -15,7 +14,6 @@ import Go12 from "../assets/Go (12).jpg";
 import Go13 from "../assets/Go (13).jpg";
 import Go14 from "../assets/Go (14).jpg";
 import Go15 from "../assets/Go (15).jpg";
-import Go16 from "../assets/Go (16).jpg";
 import Go17 from "../assets/Go (17).jpg";
 import Go18 from "../assets/Go (18).jpg";
 import Go19 from "../assets/Go (19).jpg";
@@ -50,17 +48,18 @@ import Go47 from "../assets/Go (47).jpg";
 import Go48 from "../assets/Go (48).jpg";
 import Go49 from "../assets/Go (49).jpg";
 import Go50 from "../assets/Go (50).jpg";
+import Go2 from "../assets/Go (2).jpg";
 
 import Testimonials from "../components/Testimonial";
 import GazeboBanner from "./GazeeboBanner";
 
 
 const images = [
-  Go1, Go2, Go3, Go4, Go5, Go6, Go7, Go8, Go9, Go10,
-  Go11, Go12, Go13, Go14, Go15, Go16, Go17, Go18, Go19, Go20,
+  Go1, Go4, Go5, Go6, Go7, Go8, Go9, Go10,
+  Go11, Go12, Go13, Go14, Go15, Go17, Go18, Go19, Go20,
   Go21, Go22, Go23, Go24, Go25, Go26, Go27, Go28, Go29, Go30,
   Go31, Go32, Go33, Go34, Go35, Go36, Go37, Go38, Go39, Go40,
-  Go41, Go42, Go43, Go44, Go45, Go46, Go47, Go48, Go49, Go50,
+  Go41, Go42, Go43, Go44, Go45, Go46, Go47, Go48, Go49, Go50,Go2, Go3,
 ];
 
 const useInView = () => {
