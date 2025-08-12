@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import J1 from "../assets/J (1).jpg";
 import J2 from "../assets/J (2).jpg";
 import J3 from "../assets/J (3).jpg";
-import J4 from "../assets/junk.jpg";
+
 import J5 from "../assets/J (5).jpg";
 import J6 from "../assets/J (6).jpg";
 import J7 from "../assets/J (7).jpg";
@@ -32,7 +32,7 @@ import Testimonials from "../components/Testimonial";
 import JunkyardSetBanner from "./JunkBanner";
 
 const images = [
-  J1, J2, J3, J4, J5, J6, J7, J8, J9, J10,
+  J1, J2, J3, J5, J6, J7, J8, J9, J10,
   J11, J12, J13, J14, J15, J16, J17, J18, 
   J21, J24, J25, J26, J27, J28
 ];
