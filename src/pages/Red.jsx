@@ -18,7 +18,7 @@ import r15 from "../assets/R (15).jpg";
 import r16 from "../assets/R (16).jpeg";
 import r17 from "../assets/R (17).jpg";
 import r18 from "../assets/R (18).jpeg";
-import r19 from "../assets/R (19).jpg";
+import r19 from "../assets/redd.jpg";
 import r20 from "../assets/R (20).jpeg";
 import r21 from "../assets/R (21).jpg";
 import r22 from "../assets/R (22).jpeg";

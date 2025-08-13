@@ -1,11 +1,11 @@
 
 import React from "react";
-import bgImage from "../assets/set.jpg";
+import bgImage from "../assets/redd.jpg";
 
 export default function RedBanner() {
   return (
     <section
-      className="h-[300px] bg-cover bg-center relative"
+      className="h-[380px] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       

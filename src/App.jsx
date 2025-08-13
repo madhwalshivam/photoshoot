@@ -41,6 +41,15 @@ import Picnic from './pages/Picnic.jsx';
 import Junk from './pages/Junk.jsx';
 import Born from './pages/Born.jsx';
 import Brick from './pages/Brick.jsx';
+import Beach from './pages/Beach.jsx';
+import London from './pages/London.jsx';
+import Railway from './pages/Railway.jsx';
+import Car from './pages/Car.jsx';
+import Swing from './pages/Swing.jsx';
+import Color from './pages/Color.jsx';
+import Bulb from './pages/Bulb.jsx';
+import Pillar from './pages/Pillar.jsx';
+import Wall from './pages/Wall.jsx';
 
 function App() {
   return (
@@ -85,6 +94,15 @@ function App() {
            <Route path="/junkyard-photoshoot-location-in-delhi" element={<Junk/>} />
            <Route path="/bonfire-photoshoot-location-in-delhi" element={<Born/>} />
            <Route path="/bricked-arches-photoshoot-location-in-delhi" element={<Brick/>} />
+           <Route path="/beach-photoshoot-location-in-delhi" element={<Beach/>} />
+           <Route path="/london-street-photoshoot-location-in-delhi" element={<London/>} />
+           <Route path="/railway-station-photoshoot-location-in-delhi" element={<Railway/>} />
+           <Route path="/red-open-car-photoshoot-location-in-delhi" element={<Car/>} />
+            <Route path="/swing-set-photoshoot-location-in-delhi" element={<Swing/>} />
+            <Route path="/colour-wall-photoshoot-location-in-delhi" element={<Color/>} />
+            <Route path="/bulb-set-photoshoot-location-in-delhi" element={<Bulb/>} />
+             <Route path="/pillar-set-photoshoot-location-in-delhi" element={<Pillar/>} />
+              <Route path="/brick-wall-photoshoot-location-in-delhi" element={<Wall/>} />
       </Routes>
       <Footer />
     </HelmetProvider>

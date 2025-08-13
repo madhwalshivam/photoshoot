@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import g1 from "../assets/G (1).jpeg";
 import g2 from "../assets/G (2).jpeg";
-import g3 from "../assets/G (3).jpeg";
+import g3 from "../assets/glass.jpeg";
 import g4 from "../assets/G (4).jpeg";
 import g5 from "../assets/G (5).jpg";
 import g6 from "../assets/G (6).jpg";
