@@ -2,11 +2,11 @@ import React from 'react';
 import footerBg from '../assets/footer.jpg';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-
+import logo from '../assets/logo.png'
 export default function Footer() {
   return (
     <>
-      {/* ===== SEO Keywords Section ===== */}
+     
     <div className="bg-gray-100 py-8 px-6">
   <div className="max-w-7xl mx-auto">
     <h3 className="text-2xl font-semibold font-playfair text-gray-800 mb-4">
@@ -42,7 +42,9 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
             {/* Studio Info */}
             <div>
-              <h3 className="text-2xl font-bold mb-4 font-playfair text-yellow-400">THE PICTURE TOWN</h3>
+               <div className="mb-4">
+      <img src={logo} alt="The Picture Town Logo" className="h-24" />
+    </div>
               <p className="text-gray-300 mb-4">
                 Best Pre Wedding Location in Delhi. Affordable, cinematic sets for prewedding, maternity, anniversary, and more.
               </p>
