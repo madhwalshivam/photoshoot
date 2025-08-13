@@ -1,15 +1,61 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import ContactBanner from "./ContactBanner";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const PhotoshootContact = () => {
-  const [shootType, setShootType] = useState("");
-  const [otherText, setOtherText] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const form = e.target;
+
+    emailjs
+      .sendForm(
+        "service_oe2x5k9",
+        "template_l1n4ria",
+        form,
+        "oXzMfpyoC20qyjnMp"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success("Your request has been sent successfully!", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          });
+          form.reset();
+          setLoading(false);
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error("❌ Something went wrong! Please try again.", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          });
+          setLoading(false);
+        }
+      );
+  };
 
   return (
-    <div className="bg-white text-black">
+    <div className="bg-white text-black min-h-screen">
       <Helmet>
-        <title>Book Your Photoshoot | The Picture Town - Best Pre-Wedding Location in Delhi</title>
+        <title>
+          Book Your Photoshoot | The Picture Town - Best Pre-Wedding Location in Delhi
+        </title>
         <meta
           name="description"
           content="Book your pre-wedding, maternity, baby, or fashion photoshoot at The Picture Town – Delhi's top-rated photoshoot location. Contact us today!"
@@ -29,10 +75,10 @@ const PhotoshootContact = () => {
       </Helmet>
 
       <ContactBanner />
+
       <div className="max-w-7xl mx-auto p-6">
-        {/* Contact section */}
         <div className="flex flex-col md:flex-row justify-between gap-10">
-          {/* Left side */}
+          {/* Left info */}
           <div className="md:w-1/2 space-y-4">
             <h2 className="text-3xl font-playfair font-bold">Get In Touch</h2>
             <p className="text-gray-700">
@@ -40,20 +86,10 @@ const PhotoshootContact = () => {
               team will contact you.
             </p>
             <div className="space-y-3 text-gray-800">
-              <div>
-                <strong>📞 Phone:</strong> +91 8287211620
-                
-              </div>
-              <div>
-                <strong>📍 Address:</strong> Alipur - Narela Rd, opposite Jeet Farm,
-Delhi, 110082
-              </div>
-              <div>
-                <strong>📧 Email:</strong> Thepicturetown@gmail.com
-              </div>
-              <div>
-                <strong>📸 Instagram:</strong> thepicturetown
-              </div>
+              <div><strong>📞 Phone:</strong> +91 8287211620</div>
+              <div><strong>📍 Address:</strong> Alipur - Narela Rd, opposite Jeet Farm, Delhi, 110082</div>
+              <div><strong>📧 Email:</strong> Thepicturetown@gmail.com</div>
+              <div><strong>📸 Instagram:</strong> thepicturetown</div>
             </div>
             <div className="flex space-x-4 pt-4 text-2xl text-black">
               <i className="fab fa-facebook"></i>
@@ -64,16 +100,18 @@ Delhi, 110082
 
           {/* Right side form */}
           <div className="md:w-1/2 bg-white p-6 rounded-lg shadow-md border border-gray-300">
-            <form className="space-y-4">
+            <form className="space-y-4" onSubmit={sendEmail}>
               <div className="flex flex-col md:flex-row gap-4">
                 <input
                   type="text"
+                  name="user_name"
                   placeholder="Name"
                   className="w-full p-2 border border-gray-400 rounded"
                   required
                 />
                 <input
                   type="email"
+                  name="user_email"
                   placeholder="Email"
                   className="w-full p-2 border border-gray-400 rounded"
                   required
@@ -81,65 +119,56 @@ Delhi, 110082
               </div>
               <input
                 type="tel"
+                name="user_phone"
                 placeholder="Phone Number"
                 className="w-full p-2 border border-gray-400 rounded"
                 required
               />
               <input
                 type="date"
+                name="shoot_date"
                 className="w-full p-2 border border-gray-400 rounded"
                 required
               />
-              <select
+              <input
+                type="text"
+                name="shoot_type"
+                placeholder="Which type of photoshoot you want?"
                 className="w-full p-2 border border-gray-400 rounded"
-                value={shootType}
-                onChange={(e) => setShootType(e.target.value)}
                 required
-              >
-                <option value="">Select Photoshoot Type</option>
-                <option value="Pre Wedding">Pre Wedding</option>
-                <option value="Maternity">Maternity</option>
-                <option value="Baby Shoot">Baby Shoot</option>
-                <option value="Fashion">Fashion</option>
-                <option value="Other">Other</option>
-              </select>
-              {shootType === "Other" && (
-                <input
-                  type="text"
-                  placeholder="Please specify"
-                  value={otherText}
-                  onChange={(e) => setOtherText(e.target.value)}
-                  className="w-full p-2 border border-gray-400 rounded"
-                />
-              )}
+              />
               <textarea
+                name="message"
                 rows="4"
                 placeholder="Message"
                 className="w-full p-2 border border-gray-400 rounded"
               />
               <button
                 type="submit"
+                disabled={loading}
                 className="bg-black text-white py-2 px-6 rounded hover:bg-gray-800"
               >
-                Submit
+                {loading ? "Sending..." : "Submit"}
               </button>
             </form>
           </div>
         </div>
 
         {/* Google Map */}
-      <div className="mt-10">
-  <iframe
-    title="The Picture Town - Map"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.228484820522!2d77.11024841508366!3d28.80081198255113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dab9c5d0e4f51%3A0xaf8e7b4d88c69258!2sThe%20Picture%20Town%20-%20Best%20Pre%20Wedding%20Location%20in%20Delhi!5e0!3m2!1sen!2sin!4v1691234567890"
-    className="w-full h-80 border-0 rounded-md"
-    allowFullScreen=""
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  ></iframe>
-</div>
-
+        <div className="mt-10">
+          <iframe
+            title="The Picture Town - Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.228484820522!2d77.11024841508366!3d28.80081198255113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dab9c5d0e4f51%3A0xaf8e7b4d88c69258!2sThe%20Picture%20Town%20-%20Best%20Pre%20Wedding%20Location%20in%20Delhi!5e0!3m2!1sen!2sin!4v1691234567890"
+            className="w-full h-80 border-0 rounded-md"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
+
+      {/* Toast Container */}
+      <ToastContainer />
     </div>
   );
 };

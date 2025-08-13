@@ -73,6 +73,7 @@ export default function Footer() {
                 <li>📞RAAJ <a href="tel:08287589910" className="hover:text-white">: 8287211620</a></li>
                 <li>📞NISHANT <a href="tel:08287211620" className="hover:text-white">: 8287589910</a></li>
                 <li>📞SUMITA <a href="tel:08287211620" className="hover:text-white">: 9899939355</a></li>
+                 <li>📞RITIKA JAIN <a href="tel:08287211620" className="hover:text-white">: 9899198297</a></li>
               </ul>
             </div>    
 
