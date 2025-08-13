@@ -13,7 +13,7 @@ import J10 from "../assets/J (10).jpg";
 import J11 from "../assets/J (11).jpg";
 import J12 from "../assets/J (12).jpg";
 import J13 from "../assets/J (13).jpg";
-import J14 from "../assets/J (14).jpg";
+import J14 from "../assets/junkkk.jpg";
 import J15 from "../assets/J (15).jpg";
 import J16 from "../assets/J (16).jpg";
 import J17 from "../assets/J (17).jpg";
