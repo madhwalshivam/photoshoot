@@ -1,10 +1,10 @@
 import React from "react";
-import bgImage from "../assets/com.jpg";
+import bgImage from "../assets/kurbaani.jpg";
 
 export default function KurbaniSetBanner() {
   return (
     <section
-      className="h-[300px] bg-cover bg-center relative"
+      className="h-[380px] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Dark overlay */}

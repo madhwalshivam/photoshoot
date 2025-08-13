@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import BAR2 from "../assets/BAR (2).jpg";
 import BAR3 from "../assets/BAR (3).jpg";
 import BAR4 from "../assets/BAR (4).jpg";
-import BAR5 from "../assets/BAR (5).jpg";
+import BAR5 from "../assets/barr.jpg";
 import BAR6 from "../assets/BAR (6).jpg";
 import BAR7 from "../assets/BAR (7).jpg";
 import BAR8 from "../assets/BAR (8).jpg";

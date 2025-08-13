@@ -4,7 +4,7 @@ import ro2 from "../assets/Ro (2).jpeg";
 import ro4 from "../assets/Ro (4).jpeg";
 import ro8 from "../assets/Ro (8).jpg";
 import ro9 from "../assets/Ro (9).jpg";
-import ro10 from "../assets/Ro (10).jpg";
+import ro10 from "../assets/roman.jpg";
 import ro11 from "../assets/Ro (11).jpg";
 import ro12 from "../assets/Ro (12).jpg";
 import ro13 from "../assets/Ro (13).jpg";

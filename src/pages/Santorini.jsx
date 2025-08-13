@@ -8,7 +8,7 @@ import s5 from "../assets/S (5).jpeg";
 import s6 from "../assets/S (4).jpg";
 import s7 from "../assets/S (2).jpeg";
 import s8 from "../assets/S (8).jpeg";
-import s9 from "../assets/S (9).jpeg";
+import s9 from "../assets/sant.jpeg";
 import s10 from "../assets/S (10).jpg";
 import s11 from "../assets/S (11).jpg";
 import s12 from "../assets/S (12).jpg";

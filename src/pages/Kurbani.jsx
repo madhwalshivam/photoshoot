@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import K1 from "../assets/K (1).jpg";
 import K2 from "../assets/K (2).jpg";
-import K3 from "../assets/K (3).jpg";
+import K3 from "../assets/kurbaani.jpg";
 import K4 from "../assets/K (4).jpg";
 import K5 from "../assets/K (5).jpg";
 import K6 from "../assets/K (6).jpg";

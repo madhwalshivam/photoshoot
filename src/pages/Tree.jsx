@@ -13,7 +13,7 @@ import t10 from "../assets/T (10).jpg";
 import t11 from "../assets/T (11).jpg";
 import t12 from "../assets/T (10).jpeg";
 import t13 from "../assets/T (11).jpeg";
-import t14 from "../assets/T (12).jpg";
+import t14 from "../assets/treee.jpg";
 import t15 from "../assets/T (1).jpeg";
 import t16 from "../assets/T (16).jpg";
 import t17 from "../assets/TREE.jpg";

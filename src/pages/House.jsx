@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import h1 from "../assets/H (1).jpg";
-import h2 from "../assets/H (2).jpg";
+import h2 from "../assets/scootish.jpg";
 import h3 from "../assets/H (3).jpg";
 import h4 from "../assets/H (4).jpg";
 import h5 from "../assets/H (5).jpg";
