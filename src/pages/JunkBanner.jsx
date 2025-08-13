@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/junk.jpg"; 
+import bgImage from "../assets/footer.jpg"; 
 
 export default function JunkyardSetBanner() {
   return (
