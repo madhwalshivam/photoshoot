@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/Born.jpg";
+import bgImage from "../assets/born.jpg";
 
 export default function BonfireSetBanner() {
   return (
