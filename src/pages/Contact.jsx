@@ -4,6 +4,8 @@ import ContactBanner from "./ContactBanner";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import PhoneIcon from '@mui/icons-material/Phone';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const PhotoshootContact = () => {
   const [loading, setLoading] = useState(false);
@@ -86,7 +88,7 @@ const PhotoshootContact = () => {
               team will contact you.
             </p>
             <div className="space-y-3 text-gray-800">
-              <div><strong>📞 Phone:</strong> +91 8287211620</div>
+              <div><strong><PhoneIcon className="text-red-500" /> Phone:</strong> +91 8287211620</div>
               <div><strong>📍 Address:</strong> Alipur - Narela Rd, opposite Jeet Farm, Delhi, 110082</div>
               <div><strong>📧 Email:</strong> Thepicturetown@gmail.com</div>
               <div><strong>📸 Instagram:</strong> thepicturetown</div>

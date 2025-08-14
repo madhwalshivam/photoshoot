@@ -7,7 +7,7 @@ import L4 from "../assets/L (4).jpg";
 import L5 from "../assets/L (5).jpg";
 import L6 from "../assets/L (6).jpg";
 import L7 from "../assets/L (7).jpg";
-import L8 from "../assets/L (8).jpg";
+import L8 from "../assets/lib.jpg";
 import L9 from "../assets/L (9).jpg";
 import L10 from "../assets/L (1).jpeg";
 import L11 from "../assets/L (11).jpg";

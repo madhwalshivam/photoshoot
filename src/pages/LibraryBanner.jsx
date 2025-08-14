@@ -1,10 +1,10 @@
 import React from "react";
-import bgImage from "../assets/ll.jpg";
+import bgImage from "../assets/lib.jpg";
 
 export default function LibrarySetBanner() {
   return (
     <section
-      className="h-[300px] bg-cover bg-center relative"
+      className="h-[380px] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Dark overlay */}

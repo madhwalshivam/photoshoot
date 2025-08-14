@@ -1,5 +1,8 @@
 import React from 'react';
 import footerBg from '../assets/footer.jpg';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import PhoneIcon from '@mui/icons-material/Phone';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import logo from '../assets/logo.png'
@@ -42,9 +45,12 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
             {/* Studio Info */}
             <div>
-               <div className="mb-4">
-      <img src={logo} alt="The Picture Town Logo" className="h-24" />
+               <div >
+      <img src={logo} alt="The Picture Town Logo" className="h-28" />
     </div>
+    <p className="font-playfair font-bold text-yellow-400 mb-2">
+      THE PICTURE TOWN
+              </p>
               <p className="text-gray-300 mb-4">
                 Best Pre Wedding Location in Delhi. Affordable, cinematic sets for prewedding, maternity, anniversary, and more.
               </p>
@@ -68,16 +74,36 @@ export default function Footer() {
             </div>
 
             {/* Contact Info */}
-            <div>
-              <h4 className="font-semibold mb-4 font-playfair text-yellow-400">Contact Info</h4>
-              <ul className="text-gray-300 space-y-3 text-sm">
-                <li>📍 Alipur - Narela Rd, opposite Jeet Farm,<br /> Delhi, 110082</li>
-                <li>💬📞RAAJ <a href="tel:08287589910" className="hover:text-white">: 8287211620</a></li>
-                <li>💬📞NISHANT <a href="tel:08287211620" className="hover:text-white">: 8287589910</a></li>
-                <li>💬📞SUMITA <a href="tel:08287211620" className="hover:text-white">: 9899939355</a></li>
-                 <li>💬📞RITIKA JAIN <a href="tel:08287211620" className="hover:text-white">: 9899198297</a></li>
-              </ul>
-            </div>    
+           <div>
+  <h4 className="font-semibold mb-4 font-playfair text-yellow-400">Contact Info</h4>
+  <ul className="text-gray-300 space-y-3 text-sm">
+    <li className="flex items-start gap-2">
+      <LocationOnIcon className="text-yellow-400" />
+      Alipur - Narela Rd, opposite Jeet Farm, <br /> Delhi, 110082
+    </li>
+    <li className="flex items-center gap-2">
+      <WhatsAppIcon className="text-green-400 ml-1" /> <PhoneIcon className="text-red-500" />
+      RAAJ <a href="tel:08287589910" className="hover:text-white">: 8287211620</a>
+     
+    </li>
+    <li className="flex items-center gap-2">
+       <WhatsAppIcon className="text-green-400 ml-1" /><PhoneIcon className="text-red-500" />
+      NISHANT <a href="tel:08287211620" className="hover:text-white">: 8287589910</a>
+     
+    </li>
+    <li className="flex items-center gap-2">
+    <WhatsAppIcon className="text-green-400 ml-1" /> <PhoneIcon className="text-red-500" />
+      SUMITA <a href="tel:08287211620" className="hover:text-white">: 9899939355</a>
+    
+    </li>
+    <li className="flex items-center gap-2">
+     <WhatsAppIcon className="text-green-400 ml-1" /> <PhoneIcon className="text-red-500" />
+      RITIKA JAIN <a href="tel:08287211620" className="hover:text-white">: 9899198297</a>
+      
+    </li>
+  </ul>
+</div>
+ 
 
             {/* Social Links */}
             <div>

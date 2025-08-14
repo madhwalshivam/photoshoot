@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import K29 from "../assets/K (29).jpg";
-import K30 from "../assets/K (30).jpg";
+import K30 from "../assets/kitchen.jpg";
 import K31 from "../assets/K (31).jpg";
 import K37 from "../assets/K (37).jpg";
 import K38 from "../assets/K (38).jpg";

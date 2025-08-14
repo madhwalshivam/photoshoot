@@ -4,7 +4,7 @@ import MM1 from "../assets/MARRY ME  (1).jpg";
 import MM2 from "../assets/MARRY ME  (2).jpg";
 import MM3 from "../assets/MARRY ME  (3).jpg";
 import MM4 from "../assets/MARRY ME  (4).jpg";
-import MM5 from "../assets/MARRY ME  (5).jpg";
+import MM5 from "../assets/marryy.jpg";
 import MM6 from "../assets/MARRY ME  (1).jpeg";
 import MM7 from "../assets/MARRY ME  (7).jpg";
 import MM8 from "../assets/MARRY ME  (8).jpg";

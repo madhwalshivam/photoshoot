@@ -1,9 +1,9 @@
 import React from "react";
-import bgImage from "../assets/gg.jpg";
+import bgImage from "../assets/gazee.jpeg";
 export default function GazeboBanner() {
   return (
     <section
-      className="h-[300px] bg-cover bg-center relative"
+      className="h-[380px] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Dark overlay */}

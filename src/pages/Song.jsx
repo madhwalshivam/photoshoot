@@ -10,6 +10,7 @@ import img7 from "../assets/s7.png";
 import img8 from "../assets/s8.png";
 import Testimonials from "../components/Testimonial";
 import SongBanner from "./SongBanner";
+import SongVideo from "./SongVideo";
 
 // All images
 const images = [img1, img2, img3, img4, img5, img6, img7, img8];
@@ -155,7 +156,7 @@ const Song = () => {
           </button>
         </div>
       )}
-
+      <SongVideo/>
       <Testimonials />
     </div>
   );

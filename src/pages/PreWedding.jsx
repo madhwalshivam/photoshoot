@@ -44,6 +44,7 @@ import img60 from "../assets/PRE-WEDDING SHOOT (60).jpeg";
 import img61 from "../assets/PRE-WEDDING SHOOT (63).jpeg";
 import img62 from "../assets/PRE-WEDDING SHOOT (66).jpeg";
 import img63 from "../assets/PRE-WEDDING SHOOT (62).jpeg";
+import PreVideo from "./PreweddingVideo";
 
 // All images array
 const images = [
@@ -183,7 +184,7 @@ const PreWeddingPhotos = () => {
           </button>
         </div>
       )}
-
+        <PreVideo/>
       <Testimonials />
     </div>
   );

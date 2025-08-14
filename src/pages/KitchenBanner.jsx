@@ -1,10 +1,10 @@
 import React from "react";
-import bgImage from "../assets/minimalist-background.jpg";
+import bgImage from "../assets/kitchen.jpg";
 
 export default function KitchenSetBanner() {
   return (
     <section
-      className="h-[300px] bg-cover bg-center relative"
+      className="h-[380px] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Dark overlay */}
