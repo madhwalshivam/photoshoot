@@ -10,24 +10,25 @@ export default function Footer() {
   return (
     <>
      
-    <div className="bg-gray-100 py-8 px-6">
+ <div className="bg-gray-100 py-8 px-6">
   <div className="max-w-7xl mx-auto">
     <h3 className="text-2xl font-semibold font-playfair text-gray-800 mb-4">
-      Best Photoshoot Services in Delhi – Pre-Wedding, Maternity & More
+      Best Photoshoot Locations in Delhi – Pre-Wedding, Maternity & More
     </h3>
     <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-      Looking for the <strong>best pre-wedding shoot in Delhi</strong>? At <strong>The Picture Town</strong>, we specialize in capturing the magic of your love story at some of the most iconic and scenic locations across Delhi NCR. Whether it’s a cinematic outdoor shoot or a styled indoor setup, our team ensures your pre-wedding moments are nothing short of perfect.
+      Looking for the <strong>best pre-wedding shoot locations in Delhi</strong>? At <strong>The Picture Town</strong>, we offer some of the most scenic, iconic, and cinematic spots across Delhi NCR to make your love story unforgettable. Whether it’s a royal heritage site, lush garden, or a styled indoor studio, our locations provide the perfect backdrop for your pre-wedding memories.
       <br /><br />
-      Expecting a little one? Trust us for the <strong>best maternity photoshoot in Delhi</strong>. Our team creates elegant, comfortable, and timeless sessions that celebrate the beauty of motherhood.
+      Expecting a little one? We also have <strong>beautiful maternity photoshoot locations in Delhi</strong> that blend comfort, elegance, and natural charm — perfect for celebrating the joy of motherhood.
       <br /><br />
-      For new parents, we offer <strong>affordable baby shoots in Delhi</strong> that capture the innocence and charm of your little one. We use natural lighting, cute props, and baby-friendly environments for the most adorable memories.
+      For proud new parents, we recommend our <strong>adorable baby shoot locations in Delhi</strong> with natural light, baby-friendly settings, and cute props that bring out every smile and expression.
       <br /><br />
-      Need a modern touch? Our <strong>fashion shoots</strong> and <strong>Instagram reel shoots</strong> are designed for influencers, models, and creators looking for bold, creative visuals. We’re also known for our <strong>brand shoots</strong> and <strong>commercial photography</strong>, tailored for businesses and professionals.
+      Want something trendy? Our <strong>fashion shoot</strong> and <strong>Instagram reel shoot locations</strong> are curated for influencers, models, and creators who want bold, stylish visuals. We also provide premium spaces for <strong>brand shoots</strong> and <strong>commercial photography</strong> that help businesses stand out.
       <br /><br />
-      Book your session today and experience why we’re known as one of the <strong>top photography studios in Delhi</strong> for every special moment — from <strong>anniversaries</strong> to <strong>family shoots</strong>, <strong>YouTube blog shoots</strong>, and more.
+      Book your session today and explore why we’re considered one of the <strong>top photoshoot location providers in Delhi</strong> for every special occasion — from <strong>anniversaries</strong> to <strong>family shoots</strong>, <strong>YouTube blog shoots</strong>, and more.
     </p>
   </div>
 </div>
+
 
       {/* ===== Footer Section ===== */}
       <footer className="relative bg-gray-900 text-white py-12 overflow-hidden">
