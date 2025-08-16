@@ -12,11 +12,20 @@ const seoKeywords = [
   "Anniversary Shoot Location in Delhi-NCR",
   "Maternity Shoot Location in Delhi-NCR",
   "Baby Shoot Location in Delhi-NCR",
-  "Horse Photoshoot Delhi",
-  "Swimming Pool Photoshoot Delhi",
+  "Horse",
+  "Swimming Pool",
   "Air Conditioned Makeup Room and Changing Room Delhi",
   "50+ Sets with Many Props in Delhi (Snow Machine, Bubble Machine, Fog Machine)",
-  "Swiggy and Zomato Deliver Here"
+  "Swiggy and Zomato Deliver Here",
+];
+
+// Highlighted keywords
+const highlight = [
+  "Horse",
+  "Swimming Pool",
+  "Air Conditioned Makeup Room and Changing Room Delhi",
+  "50+ Sets with Many Props in Delhi (Snow Machine, Bubble Machine, Fog Machine)",
+  "Swiggy and Zomato Deliver Here",
 ];
 
 export default function Seo() {
@@ -24,25 +33,16 @@ export default function Seo() {
     <div className="bg-black py-3 border-y overflow-hidden relative w-full">
       <div className="overflow-hidden w-full">
         <div className="flex animate-marquee whitespace-nowrap w-fit">
-          {[...seoKeywords, ...seoKeywords].map((keyword, index) => {
-            const highlight = [
-              "Air Conditioned Makeup Room and Changing Room Delhi",
-              "50+ Sets with Many Props in Delhi (Snow Machine, Bubble Machine, Fog Machine)",
-              "Swiggy and Zomato Deliver Here"
-            ];
-            const isHighlighted = highlight.includes(keyword);
-
-            return (
-              <span
-                key={index}
-                className={`${
-                  isHighlighted ? "text-yellow-400" : "text-white"
-                } font-medium text-sm px-4 whitespace-nowrap`}
-              >
-                {keyword}
-              </span>
-            );
-          })}
+          {[...seoKeywords, ...seoKeywords].map((keyword, index) => (
+            <span
+              key={index}
+              className={`${
+                highlight.includes(keyword) ? "text-yellow-400" : "text-white"
+              } font-medium text-sm px-4 whitespace-nowrap`}
+            >
+              {keyword}
+            </span>
+          ))}
         </div>
       </div>
 
@@ -55,7 +55,6 @@ export default function Seo() {
             transform: translateX(-50%);
           }
         }
-
         .animate-marquee {
           animation: marquee 30s linear infinite;
         }

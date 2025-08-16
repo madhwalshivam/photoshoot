@@ -14,6 +14,12 @@ import Machhan11 from "../assets/CAFE (1).jpg";
 import Machhan12 from "../assets/CAFE (2).jpg";
 import Machhan13 from "../assets/CAFE (3).jpg";
 import Machhan14 from "../assets/CAFE (4).jpg";
+import Machhan15 from "../assets/rose1.jpg";
+import Machhan16 from "../assets/rose2.jpg";
+import Machhan17 from "../assets/rose3.jpg";
+import Machhan18 from "../assets/rose4.jpg";
+import Machhan19 from "../assets/rose5.jpg";
+import Machhan20 from "../assets/rose6.jpg";
 import Testimonials from "../components/Testimonial";
 import OtherBanner from "./OthersBanner";
 
@@ -21,8 +27,10 @@ const images = [
   Machhan1, Machhan2, Machhan3, Machhan4,
   Machhan5, Machhan6, Machhan7, Machhan8,
   Machhan9, Machhan10, Machhan11, Machhan12,
-  Machhan13, Machhan14, 
+  Machhan13, Machhan14, Machhan15, Machhan16,
+  Machhan17, Machhan18, Machhan19, Machhan20,
 ];
+
 
 
 

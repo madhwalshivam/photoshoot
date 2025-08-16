@@ -5,6 +5,7 @@ import image1 from '../assets/pre1.jpg';
 import image2 from '../assets/pre4.jpeg';
 import image3 from '../assets/front.jpg';
 import image4 from '../assets/pre5.jpeg';
+import { Link } from "react-router-dom";
 
 function AboutStory() {
   // Memoized Timeline Data
@@ -151,13 +152,13 @@ function AboutStory() {
                 Let’s create something beautiful together. Your moment, our passion — timeless
                 memories.
               </p>
-              <a
-                href="/contact"
-                aria-label="Start your photography journey with us"
-                className="bg-gradient-to-r from-yellow-500 to-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:from-yellow-400 hover:to-yellow-300 transition-all duration-300 inline-block"
-              >
-                Start Your Journey →
-              </a>
+              <Link
+  to="/contact"
+  aria-label="Start your photography journey with us"
+  className="bg-gradient-to-r from-yellow-500 to-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:from-yellow-400 hover:to-yellow-300 transition-all duration-300 inline-block"
+>
+  Contact Us →
+</Link>
             </div>
           </div>
         </div>

@@ -81,7 +81,7 @@ export default function Footer() {
   <ul className="text-gray-300 space-y-3 text-sm">
     <li className="flex items-start gap-2">
       <LocationOnIcon className="text-yellow-400" />
-      Alipur - Narela Rd, opposite Jeet Farm, <br /> Delhi, 110082
+     Alipur-Narela road , Alipur opposite Jeet Farm  <br /> New Delhi- 110082
     </li>
     <li className="flex items-center gap-2">
       <WhatsAppIcon className="text-green-400 ml-1" /> <PhoneIcon className="text-red-500" />
@@ -109,7 +109,10 @@ export default function Footer() {
 
             {/* Social Links */}
             <div>
-              <h4 className="font-semibold mb-4 font-playfair text-yellow-400">Follow Us</h4>
+            <h4 className="font-semibold mb-4 font-playfair text-yellow-400">
+  Follow Us <span className="text-gray-300">/ Subscribe Us</span>
+</h4>
+
               <div className="flex space-x-4">
                 <a href="https://www.facebook.com/thepicturetown" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900">
                   <FacebookIcon />

@@ -4,8 +4,15 @@ import ContactBanner from "./ContactBanner";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import PhoneIcon from '@mui/icons-material/Phone';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
+// MUI Icons
+import PhoneIcon from "@mui/icons-material/Phone";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EmailIcon from "@mui/icons-material/Email";
 
 const PhotoshootContact = () => {
   const [loading, setLoading] = useState(false);
@@ -26,13 +33,9 @@ const PhotoshootContact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success("Your request has been sent successfully!", {
+          toast.success("✅ Your request has been sent successfully!", {
             position: "top-right",
             autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
           });
           form.reset();
           setLoading(false);
@@ -42,10 +45,6 @@ const PhotoshootContact = () => {
           toast.error("❌ Something went wrong! Please try again.", {
             position: "top-right",
             autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
           });
           setLoading(false);
         }
@@ -54,6 +53,7 @@ const PhotoshootContact = () => {
 
   return (
     <div className="bg-white text-black min-h-screen">
+      {/* SEO Helmet */}
       <Helmet>
         <title>
           Book Your Photoshoot | The Picture Town -Alipur - Best Pre-Wedding Location in Delhi
@@ -87,16 +87,111 @@ const PhotoshootContact = () => {
               Book your magical photoshoot moment with us. Fill the form and our
               team will contact you.
             </p>
+
+            {/* Contact Details */}
             <div className="space-y-3 text-gray-800">
-              <div><strong><PhoneIcon className="text-red-500" /> Phone:</strong> +91 8287211620</div>
-              <div><strong>📍 Address:</strong> Alipur - Narela Rd, opposite Jeet Farm, Delhi, 110082</div>
-              <div><strong>📧 Email:</strong> Thepicturetown@gmail.com</div>
-              <div><strong>📸 Instagram:</strong> thepicturetown</div>
-            </div>
-            <div className="flex space-x-4 pt-4 text-2xl text-black">
-              <i className="fab fa-facebook"></i>
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-twitter"></i>
+              {/* Phone */}
+              <div>
+                <PhoneIcon className="text-red-500 inline-block mr-1" />{" "}
+                <strong>Phone:</strong>{" "}
+                <a href="tel:+918287211620" className="hover:text-red-500">
+                 8287211620
+                </a>
+              </div>
+               <div>
+                <PhoneIcon className="text-red-500 inline-block mr-1" />{" "}
+                <strong>Phone:</strong>{" "}
+                <a href="tel:+918287211620" className="hover:text-red-500">
+                  8287589910
+                </a>
+              </div>
+               <div>
+                <PhoneIcon className="text-red-500 inline-block mr-1" />{" "}
+                <strong>Phone:</strong>{" "}
+                <a href="tel:+918287211620" className="hover:text-red-500">
+                  9899939355
+                </a>
+              </div>
+
+              {/* WhatsApp */}
+              <div>
+                <WhatsAppIcon className="text-green-500 inline-block mr-1" />{" "}
+                <strong>WhatsApp:</strong>{" "}
+                <a
+                  href="https://wa.me/918287211620"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-500"
+                >
+                  Chat with us
+                </a>
+              </div>
+
+              {/* Address */}
+              <div>
+                <LocationOnIcon className="text-red-500 inline-block mr-1" />{" "}
+                <strong>Address:</strong>{" "}
+                <a
+                  href="https://www.google.com/maps?q=Alipur-Narela+road,+Alipur+opposite+Jeet+Farm,+New+Delhi+110082"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-500"
+                >
+                  Alipur-Narela road , Alipur opposite Jeet Farm <br /> New
+                  Delhi-110082
+                </a>
+              </div>
+
+              {/* Email */}
+              <div>
+                <EmailIcon className="text-red-500 inline-block mr-1" />{" "}
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:Thepicturetown@gmail.com"
+                  className="hover:text-red-500"
+                >
+                  Thepicturetown@gmail.com
+                </a>
+              </div>
+
+              {/* Instagram */}
+              <div>
+                <InstagramIcon className="text-pink-500 inline-block mr-2" />
+                <a
+                  href="https://www.instagram.com/thepicturetown"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-500"
+                >
+                  @thepicturetown
+                </a>
+              </div>
+
+              {/* Facebook */}
+              <div>
+                <FacebookIcon className="text-blue-600 inline-block mr-2" />
+                <a
+                  href="https://www.facebook.com/thepicturetown"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-500"
+                >
+                  thepicturetown
+                </a>
+              </div>
+
+              {/* YouTube */}
+              <div>
+                <YouTubeIcon className="text-red-600 inline-block mr-2" />
+                <a
+                  href="https://www.youtube.com/@ThePictureTown"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-500"
+                >
+                  The Picture Town
+                </a>
+              </div>
             </div>
           </div>
 
