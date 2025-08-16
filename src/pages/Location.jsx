@@ -14,8 +14,8 @@ const seoKeywords = [
   "Baby Shoot Location in Delhi-NCR",
   "Horse",
   "Swimming Pool",
-  "Air Conditioned Makeup Room and Changing Room Delhi",
-  "50+ Sets with Many Props in Delhi (Snow Machine, Bubble Machine, Fog Machine)",
+  "Air Conditioned Makeup Room and Changing Room ",
+  "50+ Sets with Many Props (Snow Machine, Bubble Machine, Fog Machine)",
   "Swiggy and Zomato Deliver Here",
 ];
 
@@ -23,8 +23,8 @@ const seoKeywords = [
 const highlight = [
   "Horse",
   "Swimming Pool",
-  "Air Conditioned Makeup Room and Changing Room Delhi",
-  "50+ Sets with Many Props in Delhi (Snow Machine, Bubble Machine, Fog Machine)",
+  "Air Conditioned Makeup Room and Changing Room ",
+  "50+ Sets with Many Props (Snow Machine, Bubble Machine, Fog Machine)",
   "Swiggy and Zomato Deliver Here",
 ];
 

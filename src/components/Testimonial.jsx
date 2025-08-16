@@ -26,7 +26,7 @@ export default function Testimonials() {
     {
       name: "Mira Sharma",
       quote:
-        "I chose The Picture Town - Alipur for my maternity shoot in Delhi NCR, and I couldn't be happier. Serene backdrops and cozy setups made it unforgettable.",
+        "I choose The Picture Town - Alipur for my maternity shoot in Delhi NCR, and I couldn't be happier. Serene backdrops and cozy setups made it unforgettable.",
     },
     {
       name: "Sanya Malhotra",

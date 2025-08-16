@@ -112,6 +112,13 @@ const PhotoshootContact = () => {
                   9899939355
                 </a>
               </div>
+              <div>
+                <PhoneIcon className="text-red-500 inline-block mr-1" />{" "}
+                <strong>Phone:</strong>{" "}
+                <a href="tel:+918287211620" className="hover:text-red-500">
+                  9899198297
+                </a>
+              </div>
 
               {/* WhatsApp */}
               <div>
