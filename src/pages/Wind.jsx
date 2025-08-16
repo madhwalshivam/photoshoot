@@ -62,10 +62,10 @@ const Wind = () => {
   return (
     <div>
   <Helmet>
-  <title>The Picture Town | Best Wind Mill Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Wind Mill Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Discover the serene and timeless beauty of The Picture Town's Wind Mill Set in Delhi NCR — an ideal setting for peaceful, nature-inspired, and elegant photography."
+    content="Discover the serene and timeless beauty of The Picture Town -Alipur's Wind Mill Set in Delhi NCR — an ideal setting for peaceful, nature-inspired, and elegant photography."
   />
   <meta property="og:title" content="Wind Mill Set Photoshoots in Delhi NCR" />
   <meta
@@ -89,7 +89,7 @@ const Wind = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Wind Mill Set photoshoot location </span>
       offers a peaceful and picturesque backdrop inspired by rustic charm and nature. Perfect for
       <span className="font-semibold text-black"> heritage shoots</span>, romantic portraits,

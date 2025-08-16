@@ -72,10 +72,10 @@ const SwimmingPool = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Swimming Pool Photoshoot Location in Delhi NCR</title>
+        <title>The Picture Town -Alipur | Best Swimming Pool Photoshoot Location in Delhi NCR</title>
         <meta
           name="description"
-          content="Relax and shine at The Picture Town's Swimming Pool photoshoot location in Delhi NCR. Ideal for refreshing, lifestyle, pre-wedding, and fashion photography."
+          content="Relax and shine at The Picture Town -Alipur's Swimming Pool photoshoot location in Delhi NCR. Ideal for refreshing, lifestyle, pre-wedding, and fashion photography."
         />
         <meta property="og:title" content="Swimming Pool Photoshoots in Delhi NCR" />
         <meta
@@ -96,7 +96,7 @@ const SwimmingPool = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, our
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
             <span className="font-semibold text-black"> Swimming Pool photoshoot location </span>
             offers a perfect blend of elegance and tranquility. Whether it’s for a
             <span className="font-semibold text-black"> pre-wedding shoot</span>, fashion editorial,

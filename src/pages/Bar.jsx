@@ -72,10 +72,10 @@ const Bar = () => {
   return (
     <div>
     <Helmet>
-  <title>The Picture Town | Best Bar Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Bar Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Elevate your photoshoots with The Picture Town's stylish Bar Set in Delhi NCR. Perfect for cocktail-themed, lifestyle, and pre-wedding photography."
+    content="Elevate your photoshoots with The Picture Town -Alipur's stylish Bar Set in Delhi NCR. Perfect for cocktail-themed, lifestyle, and pre-wedding photography."
   />
   <meta property="og:title" content="Bar Set Photoshoots in Delhi NCR" />
   <meta
@@ -98,7 +98,7 @@ const Bar = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Bar Set photoshoot location </span>
       offers a chic, sophisticated, and vibrant ambiance. Whether it’s for a
       <span className="font-semibold text-black"> pre-wedding shoot</span>, lifestyle editorial,

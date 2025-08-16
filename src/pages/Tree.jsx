@@ -104,10 +104,10 @@ const Tree = () => {
     <div>
 
   <Helmet>
-  <title>The Picture Town | Best Tree House Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Tree House Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience rustic charm at The Picture Town's Tree House photoshoot location in Delhi NCR. Ideal for nature-inspired, pre-wedding, and lifestyle photography."
+    content="Experience rustic charm at The Picture Town -Alipur's Tree House photoshoot location in Delhi NCR. Ideal for nature-inspired, pre-wedding, and lifestyle photography."
   />
   <meta property="og:title" content="Tree House Photoshoots in Delhi NCR" />
   <meta
@@ -131,7 +131,7 @@ const Tree = () => {
   </p>
 
   <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-    At <span className="font-semibold text-black">The Picture Town</span>, our
+    At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
     <span className="font-semibold text-black"> Tree House photoshoot location </span>
     offers a rare escape into nature’s beauty and rustic charm. Whether it’s for a
     <span className="font-semibold text-black"> pre-wedding shoot</span>, fashion editorial,

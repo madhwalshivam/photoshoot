@@ -55,18 +55,18 @@ const YouTubeShoot = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best YouTube Shoot Location in Delhi NCR</title>
+        <title>The Picture Town -Alipur | Best YouTube Shoot Location in Delhi NCR</title>
         <meta
           name="description"
-          content="The Picture Town offers professional YouTube video shoots in Delhi NCR, delivering high-quality visuals to elevate your channel and engage viewers."
+          content="The Picture Town -Alipur offers professional YouTube video shoots in Delhi NCR, delivering high-quality visuals to elevate your channel and engage viewers."
         />
         <meta
           property="og:title"
-          content="Professional YouTube Video Shoots in Delhi NCR | The Picture Town"
+          content="Professional YouTube Video Shoots in Delhi NCR | The Picture Town -Alipur"
         />
         <meta
           property="og:description"
-          content="Create compelling YouTube content with expert video shoots. The Picture Town specializes in dynamic and creative video production in Delhi NCR."
+          content="Create compelling YouTube content with expert video shoots. The Picture Town -Alipur specializes in dynamic and creative video production in Delhi NCR."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -86,7 +86,7 @@ const YouTubeShoot = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, we
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we
             provide expert <span className="font-semibold text-black">YouTube video shoots</span> tailored
             to boost your channel’s presence. Whether it's vlogs, tutorials, or promotional videos,
             our creative video production delivers professional quality that captivates your audience.

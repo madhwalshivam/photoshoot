@@ -104,10 +104,10 @@ const Picnic = () => {
   return (
     <div>
  <Helmet>
-  <title>The Picture Town | Best Picnic Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Picnic Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Enjoy the fresh air and joyful ambiance of The Picture Town's Picnic Set in Delhi NCR — a perfect backdrop for casual, fun, and nature-inspired photography."
+    content="Enjoy the fresh air and joyful ambiance of The Picture Town -Alipur's Picnic Set in Delhi NCR — a perfect backdrop for casual, fun, and nature-inspired photography."
   />
   <meta property="og:title" content="Picnic Set Photoshoots in Delhi NCR" />
   <meta
@@ -130,7 +130,7 @@ const Picnic = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Picnic Set photoshoot location </span>
       offers a lively and refreshing atmosphere perfect for casual fun and nature-inspired portraits. Ideal for
       <span className="font-semibold text-black"> family shoots</span>, friends’ gatherings,

@@ -75,10 +75,10 @@ const Pillar = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Pillar Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Pillar Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Step into elegance and timeless beauty at The Picture Town's Pillar Set in Delhi NCR — perfect for pre-wedding, bridal, fashion, and royal-themed photoshoots."
+    content="Step into elegance and timeless beauty at The Picture Town -Alipur's Pillar Set in Delhi NCR — perfect for pre-wedding, bridal, fashion, and royal-themed photoshoots."
   />
   <meta 
     property="og:title" 
@@ -106,7 +106,7 @@ const Pillar = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Pillar Set photoshoot location </span>
       blends regal architecture with cinematic charm, offering the perfect backdrop 
       for <span className="font-semibold text-black">pre-wedding shoots</span>, bridal portraits, 

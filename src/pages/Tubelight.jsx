@@ -70,10 +70,10 @@ const Tube = () => {
   return (
     <div>
    <Helmet>
-  <title>The Picture Town | Best Tubelight Room Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Tubelight Room Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Step into The Picture Town's Tubelight Room Set in Delhi NCR — a vibrant and stylish backdrop for modern, creative, and cinematic photography."
+    content="Step into The Picture Town -Alipur's Tubelight Room Set in Delhi NCR — a vibrant and stylish backdrop for modern, creative, and cinematic photography."
   />
   <meta property="og:title" content="Tubelight Room Set Photoshoots in Delhi NCR" />
   <meta
@@ -99,7 +99,7 @@ const Tube = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Tubelight Room Set photoshoot location </span>
       offers a bold and modern space that transforms your vision into striking visuals.
       Perfect for <span className="font-semibold text-black">fashion shoots</span>, music videos,

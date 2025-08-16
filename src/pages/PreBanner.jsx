@@ -1,10 +1,10 @@
 import React from "react";
-import bgImage from "../assets/pree.jpg";
+import bgImage from "../assets/pre3.jpg";
 
 export default function PreBanner() {
   return (
     <section
-      className="h-[300px] bg-cover bg-center relative"
+      className="h-[400px] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Dark Overlay */}

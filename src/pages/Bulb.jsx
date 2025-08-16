@@ -63,10 +63,10 @@ const Bulb = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Bulb Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Bulb Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Create warm, glowing, and cinematic memories at The Picture Town's Bulb Set in Delhi NCR — perfect for pre-wedding, lifestyle, night, and creative photoshoots."
+    content="Create warm, glowing, and cinematic memories at The Picture Town -Alipur's Bulb Set in Delhi NCR — perfect for pre-wedding, lifestyle, night, and creative photoshoots."
   />
   <meta 
     property="og:title" 
@@ -93,7 +93,7 @@ const Bulb = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Bulb Set photoshoot location </span>
       offers a warm, glowing, and cinematic ambiance, perfect for creating
       unforgettable memories. Ideal for <span className="font-semibold text-black">pre-wedding shoots</span>,

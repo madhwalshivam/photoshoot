@@ -55,10 +55,10 @@ const London = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best London Street Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best London Street Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Step into the charm of classic European streets at The Picture Town's London Street Set in Delhi NCR — perfect for vintage, fashion, and urban-themed photography."
+    content="Step into the charm of classic European streets at The Picture Town -Alipur's London Street Set in Delhi NCR — perfect for vintage, fashion, and urban-themed photography."
   />
   <meta property="og:title" content="London Street Set Photoshoots in Delhi NCR" />
   <meta
@@ -86,7 +86,7 @@ const London = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> London Street Set photoshoot location </span>
       transports you to the charm of European streets, perfect for capturing timeless and
       stylish moments. Ideal for <span className="font-semibold text-black">fashion shoots</span>,

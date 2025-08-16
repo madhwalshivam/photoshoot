@@ -65,10 +65,10 @@ const Car = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Red Open Car Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Red Open Car Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience the thrill of classic drives with The Picture Town's Red Open Car photoshoot location in Delhi NCR — perfect for pre-wedding, cinematic, and retro-themed shoots."
+    content="Experience the thrill of classic drives with The Picture Town -Alipur's Red Open Car photoshoot location in Delhi NCR — perfect for pre-wedding, cinematic, and retro-themed shoots."
   />
   <meta 
     property="og:title" 
@@ -96,7 +96,7 @@ const Car = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Vintage Red Open Car photoshoot location </span>
       brings the golden age of convertible drives to life — perfect for capturing a mix of
       romance, freedom, and cinematic style. Ideal for <span className="font-semibold text-black">pre-wedding shoots</span>,

@@ -5,20 +5,34 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function Youtube() {
   const videos = [
-    "tb8XpuiAo7U", 
+     "tb8XpuiAo7U", 
     "eeJykRwVpSw",
     "p_hdNyb6E4c",
+    "t_FV_LQB3AU",
+    "uZai20Hhv9w",
+    "l0rmkrAQN2M",
+    "zDZJrrMTAPA",
+    "Wr0lmXf5-Zk",
+     "xrhVADUKeJw", 
+    "eJFyyf7fwhE",
+    "fmPjbLnbfv0",
+    "OBPAhBUSTHM",
     "TqfNwxq2sL0",
     "Y4-Ly0gHGLE",
     "t6TpcyftH6M",
     "KMS1tl8Ets4",
+    "Jx14cXmbOls",
+    "-oJ09lvmi0Y",
+    "P2vDFEmGGJo",
+    "DbhtBul52JM",
+    "a5YO_17FMmA",
   ];
 
   const sliderSettings = {
     dots: true,
     infinite: true,
     speed: 600,
-    slidesToShow: 2,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {

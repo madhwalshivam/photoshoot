@@ -60,10 +60,10 @@ const Brick = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Bricked Arches Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Bricked Arches Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Discover the timeless beauty and architectural charm of The Picture Town's Bricked Arches Set in Delhi NCR — a perfect backdrop for classic, elegant, and heritage-themed photography."
+    content="Discover the timeless beauty and architectural charm of The Picture Town -Alipur's Bricked Arches Set in Delhi NCR — a perfect backdrop for classic, elegant, and heritage-themed photography."
   />
   <meta property="og:title" content="Bricked Arches Set Photoshoots in Delhi NCR" />
   <meta
@@ -87,7 +87,7 @@ const Brick = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Bricked Arches Set photoshoot location </span>
       offers a majestic and historic ambiance perfect for capturing classic, elegant moments. Ideal for
       <span className="font-semibold text-black"> vintage portraits</span>, romantic stories,

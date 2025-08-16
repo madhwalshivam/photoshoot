@@ -75,18 +75,18 @@ const Nature = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Nature Shoot Location in Delhi NCR</title>
+        <title>The Picture Town -Alipur | Best Nature Shoot Location in Delhi NCR</title>
         <meta
           name="description"
-          content="The Picture Town offers breathtaking nature photoshoots in Delhi NCR, capturing the beauty of the outdoors with creativity and passion."
+          content="The Picture Town -Alipur offers breathtaking nature photoshoots in Delhi NCR, capturing the beauty of the outdoors with creativity and passion."
         />
         <meta
           property="og:title"
-          content="Stunning Nature Photography in Delhi NCR | The Picture Town"
+          content="Stunning Nature Photography in Delhi NCR | The Picture Town -Alipur"
         />
         <meta
           property="og:description"
-          content="Celebrate nature’s beauty with professional photoshoots. The Picture Town delivers captivating and timeless outdoor photography in Delhi NCR."
+          content="Celebrate nature’s beauty with professional photoshoots. The Picture Town -Alipur delivers captivating and timeless outdoor photography in Delhi NCR."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -106,7 +106,7 @@ const Nature = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, we specialize in
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we specialize in
             stunning <span className="font-semibold text-black">nature photoshoots</span> that
             celebrate the splendor of natural landscapes, wildlife, and outdoor moments.
             From serene forests and vibrant gardens to majestic mountains and rivers,

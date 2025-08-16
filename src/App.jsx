@@ -50,6 +50,8 @@ import Color from './pages/Color.jsx';
 import Bulb from './pages/Bulb.jsx';
 import Pillar from './pages/Pillar.jsx';
 import Wall from './pages/Wall.jsx';
+import Machhan from './pages/Machhan.jsx';
+import Others from './pages/Others.jsx';
 
 function App() {
   return (
@@ -59,7 +61,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/videos" element={<OurVideos />} />
-        <Route path="/pre-wedding-photography-delhi" element={<PreWedding />} />
+        <Route path="/best-pre-wedding-location-in-delhi-ncr" element={<PreWedding />} />
         <Route path="/maternity-shoot-in-delhi" element={<Mat />} />
         <Route path="/contact" element={<PhotoshootContact/>} />
          <Route path="/about" element={<AboutStory/>} />
@@ -103,6 +105,8 @@ function App() {
             <Route path="/bulb-set-photoshoot-location-in-delhi" element={<Bulb/>} />
              <Route path="/pillar-set-photoshoot-location-in-delhi" element={<Pillar/>} />
               <Route path="/brick-wall-photoshoot-location-in-delhi" element={<Wall/>} />
+               <Route path="/machhan-photoshoot-location-in-delhi" element={<Machhan/>} />
+               <Route path="/best-photoshoot-location-in-delhi" element={<Others/>} />
       </Routes>
       <Footer />
     </HelmetProvider>

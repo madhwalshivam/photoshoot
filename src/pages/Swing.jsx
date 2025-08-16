@@ -66,10 +66,10 @@ const Swing = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Swing Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Swing Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience playful romance and charming outdoor vibes at The Picture Town's Swing Set in Delhi NCR — perfect for pre-wedding, lifestyle, and themed photoshoots."
+    content="Experience playful romance and charming outdoor vibes at The Picture Town -Alipur's Swing Set in Delhi NCR — perfect for pre-wedding, lifestyle, and themed photoshoots."
   />
   <meta 
     property="og:title" 
@@ -98,7 +98,7 @@ const Swing = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Outdoor Swing Set photoshoot location </span>
       brings together romance, fun, and natural beauty — the perfect setting for
       <span className="font-semibold text-black"> pre-wedding shoots</span>, candid couple portraits,

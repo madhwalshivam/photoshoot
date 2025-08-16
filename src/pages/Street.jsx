@@ -64,10 +64,10 @@ const Street = () => {
   return (
     <div>
    <Helmet>
-  <title>The Picture Town | Best Spanish Cafe Street Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Spanish Cafe Street Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Immerse yourself in the vibrant charm of The Picture Town's Spanish Cafe Street Set in Delhi NCR — a perfect backdrop for cozy, cultural, and lifestyle photography."
+    content="Immerse yourself in the vibrant charm of The Picture Town -Alipur's Spanish Cafe Street Set in Delhi NCR — a perfect backdrop for cozy, cultural, and lifestyle photography."
   />
   <meta property="og:title" content="Spanish Cafe Street Photoshoots in Delhi NCR" />
   <meta
@@ -91,7 +91,7 @@ const Street = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Spanish Cafe Street photoshoot location </span>
       captures the lively and cozy atmosphere of authentic Spanish streets. Perfect for
       <span className="font-semibold text-black"> lifestyle shoots</span>, candid portraits,

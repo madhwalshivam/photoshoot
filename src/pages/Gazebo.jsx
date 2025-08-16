@@ -104,10 +104,10 @@ const Gazebo = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Gazebo Set Photoshoot Location in Delhi NCR</title>
+        <title>The Picture Town -Alipur | Best Gazebo Set Photoshoot Location in Delhi NCR</title>
         <meta
           name="description"
-          content="Experience charming outdoor elegance at The Picture Town's Gazebo Set photoshoot location in Delhi NCR. Ideal for cozy, nature-inspired, pre-wedding, and lifestyle photography."
+          content="Experience charming outdoor elegance at The Picture Town -Alipur's Gazebo Set photoshoot location in Delhi NCR. Ideal for cozy, nature-inspired, pre-wedding, and lifestyle photography."
         />
         <meta property="og:title" content="Gazebo Set Photoshoots in Delhi NCR" />
         <meta
@@ -129,7 +129,7 @@ const Gazebo = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, our
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
             <span className="font-semibold text-black"> Gazebo Set photoshoot location </span>
             offers a warm and inviting outdoor ambiance. Whether it’s for a
             <span className="font-semibold text-black"> pre-wedding shoot</span>, lifestyle editorial,

@@ -78,10 +78,10 @@ const Wall = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Brick Wall Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Brick Wall Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Add a rustic and vintage charm to your memories at The Picture Town's Brick Wall Set in Delhi NCR — perfect for pre-wedding, lifestyle, fashion, and creative photoshoots."
+    content="Add a rustic and vintage charm to your memories at The Picture Town -Alipur's Brick Wall Set in Delhi NCR — perfect for pre-wedding, lifestyle, fashion, and creative photoshoots."
   />
   <meta 
     property="og:title" 
@@ -109,7 +109,7 @@ const Wall = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Brick Wall Set photoshoot location </span>
       brings a raw, bold, and vintage charm to your pictures, making it a unique 
       backdrop for <span className="font-semibold text-black">pre-wedding shoots</span>, 

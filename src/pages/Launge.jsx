@@ -75,10 +75,10 @@ const Launge = () => {
   return (
     <div>
    <Helmet>
-  <title>The Picture Town | Best Lounge Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Lounge Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Unwind and pose at The Picture Town's Lounge Set in Delhi NCR — a perfect backdrop for casual, chic, and lifestyle-themed photography."
+    content="Unwind and pose at The Picture Town -Alipur's Lounge Set in Delhi NCR — a perfect backdrop for casual, chic, and lifestyle-themed photography."
   />
   <meta property="og:title" content="Lounge Set Photoshoots in Delhi NCR" />
   <meta
@@ -102,7 +102,7 @@ const Launge = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Lounge Set photoshoot location </span>
       combines modern elegance with a relaxed vibe. Perfect for a
       <span className="font-semibold text-black"> lifestyle shoot</span>, fashion portraits,

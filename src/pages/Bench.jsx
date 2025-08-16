@@ -96,10 +96,10 @@ const Bench = () => {
   return (
     <div>
    <Helmet>
-  <title>The Picture Town | Best Bench Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Bench Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Create timeless memories at The Picture Town's Bench Set in Delhi NCR — the perfect backdrop for romantic, serene, and classic-themed photography."
+    content="Create timeless memories at The Picture Town -Alipur's Bench Set in Delhi NCR — the perfect backdrop for romantic, serene, and classic-themed photography."
   />
   <meta property="og:title" content="Bench Set Photoshoots in Delhi NCR" />
   <meta
@@ -124,7 +124,7 @@ const Bench = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Bench Set photoshoot location </span>
       offers a perfect blend of elegance and serenity. Ideal for
       <span className="font-semibold text-black"> couple portraits</span>, romantic pre-wedding shoots,

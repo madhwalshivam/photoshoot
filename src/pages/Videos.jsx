@@ -5,18 +5,45 @@ import { Helmet } from "react-helmet-async";
 
 export default function OurVideos() {
   const videos = [
-    "tb8XpuiAo7U",
+     "tb8XpuiAo7U", 
     "eeJykRwVpSw",
     "p_hdNyb6E4c",
+    "t_FV_LQB3AU",
+    "uZai20Hhv9w",
+    "l0rmkrAQN2M",
+    "zDZJrrMTAPA",
+    "Wr0lmXf5-Zk",
+    "sOn0Jg_y20E",
     "TqfNwxq2sL0",
     "Y4-Ly0gHGLE",
     "t6TpcyftH6M",
     "KMS1tl8Ets4",
+    "Jx14cXmbOls",
+    "-oJ09lvmi0Y",
+    "P2vDFEmGGJo",
+    "DbhtBul52JM",
+    "a5YO_17FMmA",
+    "viNYSMnuzxc",
+    "IRQFN5TAjiY",
+    "F1R_7C06iwM",
+    "j6rQmrs9F54",
+    "SJ9T6nRpDCM",
     "7we7w6jfOm4",
     "PVc3BoRUZRQ",
     "8929qTBQCvE",
-    "a5YO_17FMmA",
+    "HJbIuGe6LZA",
+    "PJ3moZ139CA",
     "q1ddvSvu7BA",
+    "FKbUnmYUDzw",
+    "xrhVADUKeJw", 
+    "eJFyyf7fwhE",
+    "fmPjbLnbfv0",
+    "OBPAhBUSTHM",
+    "cVRg2KfqoxU",
+    "JvnSZ1Q5900",
+    "-W_avrQXbwI",
+    "AwL54Naew_U",
+    "QArNzZu4L3k",
   ];
 
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -34,10 +61,10 @@ export default function OurVideos() {
   return (
     <>
       <Helmet>
-        <title>Best Pre-Wedding & Maternity Videos in Delhi | The Picture Town</title>
+        <title>Best Pre-Wedding & Maternity Videos in Delhi | The Picture Town -Alipur</title>
         <meta
           name="description"
-          content="Watch the most cinematic pre-wedding, maternity, and baby shoot videos captured at stunning locations in Delhi by The Picture Town."
+          content="Watch the most cinematic pre-wedding, maternity, and baby shoot videos captured at stunning locations in Delhi by The Picture Town -Alipur."
         />
         <meta
           name="keywords"
@@ -56,7 +83,7 @@ export default function OurVideos() {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, we specialize in creating cinematic memories through
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we specialize in creating cinematic memories through
             breathtaking visuals. From romantic pre-wedding shoots to timeless family moments, our handpicked locations and
             professional touch bring your story to life.
           </p>

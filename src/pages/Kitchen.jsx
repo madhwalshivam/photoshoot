@@ -68,10 +68,10 @@ const Kitchen = () => {
   return (
     <div>
      <Helmet>
-  <title>The Picture Town | Best Kitchen Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Kitchen Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience the perfect blend of style and warmth at The Picture Town's Kitchen Set photoshoot location in Delhi NCR. Ideal for culinary-themed, lifestyle, and pre-wedding photography."
+    content="Experience the perfect blend of style and warmth at The Picture Town -Alipur's Kitchen Set photoshoot location in Delhi NCR. Ideal for culinary-themed, lifestyle, and pre-wedding photography."
   />
   <meta property="og:title" content="Kitchen Set Photoshoots in Delhi NCR" />
   <meta
@@ -94,7 +94,7 @@ const Kitchen = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Kitchen Set photoshoot location </span>
       offers a warm, inviting, and stylish culinary-inspired ambiance. Whether it’s for a
       <span className="font-semibold text-black"> pre-wedding shoot</span>, food-themed lifestyle editorial,

@@ -1,53 +1,98 @@
 import React, { useRef } from "react";
-import bgImage from '../assets/marry.jpg';
+import bgImage from "../assets/marry.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 export default function Testimonials() {
-  const swiperRef = useRef(null); // Swiper reference
+  const swiperRef = useRef(null);
 
+  // ✅ All testimonials in ONE array (SEO-friendly + map ke liye sahi)
   const testimonials = [
+    // Pre-wedding
     {
       name: "Aarav & Ananya",
       quote:
-        "The Picture Town is truly the best pre-wedding shoot location in Delhi. The setup, lighting, and backdrops gave our pictures a magical feel. It’s worth every penny!",
-    },
-    {
-      name: "Mira Sharma",
-      quote:
-        "I chose The Picture Town for my maternity shoot and I’m so happy I did! The locations were serene and creative, and the staff was incredibly supportive throughout.",
+        "The Picture Town - Alipur is the best pre-wedding shoot location in Delhi NCR! Every backdrop felt magical and gave us cinematic memories for life.",
     },
     {
       name: "Rohan & Sneha",
       quote:
-        "This is the most aesthetic and affordable shoot location in Delhi NCR! Perfect for couples looking for cinematic shots. Highly recommend The Picture Town!",
+        "Such an aesthetic and affordable pre-wedding shoot location in Delhi. Highly recommended for couples looking for dreamy photoshoots!",
     },
+
+    // Maternity
     {
-      name: "Ishaan Kapoor",
+      name: "Mira Sharma",
       quote:
-        "We did a fashion portfolio shoot here, and the variety of themes and props helped bring my vision to life. A must-visit location for creatives and influencers!",
-    },
-    {
-      name: "Kriti & Vansh",
-      quote:
-        "Loved the experience at The Picture Town. Every backdrop is better than the last – so many creative options for couples. Truly the best location for photography lovers.",
-    },
-    {
-      name: "Diya Bhatia",
-      quote:
-        "My baby shoot at The Picture Town was absolutely adorable. Safe, clean, and beautifully maintained sets made everything smooth and joyful.",
-    },
-    {
-      name: "Aman & Priya",
-      quote:
-        "We were amazed by how professional yet friendly the team was. From outfit changes to posing ideas, everything felt easy and enjoyable!",
+        "I chose The Picture Town - Alipur for my maternity shoot in Delhi NCR, and I couldn't be happier. Serene backdrops and cozy setups made it unforgettable.",
     },
     {
       name: "Sanya Malhotra",
       quote:
-        "One of the best places in Delhi for maternity and baby shoots! It offers so much variety in a single location. Truly a hidden gem for photographers and families.",
+        "One of the most beautiful maternity shoot locations in Delhi. The sets are clean, safe, and perfect for capturing timeless motherhood moments.",
+    },
+
+    // Fashion
+    {
+      name: "Ishaan Kapoor",
+      quote:
+        "We did a fashion shoot at The Picture Town, and the variety of backdrops made my portfolio look world-class. Definitely the best fashion shoot location in Delhi.",
+    },
+
+    // Baby
+    {
+      name: "Diya Bhatia",
+      quote:
+        "My baby's photoshoot at The Picture Town - Alipur was adorable! Safe, clean, and creative setups make it the best baby shoot location in Delhi.",
+    },
+
+    // Commercial
+    {
+      name: "Aditya Verma",
+      quote:
+        "The Picture Town is the most versatile commercial shoot location in Delhi NCR. Perfect lighting, themes, and professional support throughout.",
+    },
+    {
+      name: "Creative Studio",
+      quote:
+        "For brand shoots in Delhi, this place is unbeatable. From props to lighting, everything is tailored for professional photography.",
+    },
+
+    // Insta Reels
+    {
+      name: "Priya Sharma",
+      quote:
+        "I created Instagram reels here and the results were amazing! Truly the best Instagram reel shoot location in Delhi NCR.",
+    },
+
+    // YouTube
+    {
+      name: "Tech Vlogger",
+      quote:
+        "This is the ultimate YouTube vlog shoot location in Delhi. Stunning sets, great lighting, and so much variety in one place.",
+    },
+
+    // Swimming Pool
+    {
+      name: "Ritika & Kunal",
+      quote:
+        "The swimming pool photoshoot at The Picture Town was breathtaking. Truly the best poolside shoot location in Delhi NCR!",
+    },
+
+    // Machhan
+    {
+      name: "Kriti & Vansh",
+      quote:
+        "The Machhan setup is so unique! Perfect for rustic, cozy, and romantic photoshoots in Delhi NCR. Loved the vibe!",
+    },
+
+    // Overall
+    {
+      name: "Aman & Priya",
+      quote:
+        "The Picture Town is the best photoshoot location in Delhi NCR with endless backdrops. From romantic to creative, everything is here in one place.",
     },
   ];
 
@@ -68,12 +113,16 @@ export default function Testimonials() {
         </h2>
         <p className="text-lg mb-12 max-w-3xl mx-auto text-gray-200">
           Discover why{" "}
-          <span className="text-yellow-400 font-semibold">The Picture Town</span>{" "}
-          is rated the <strong>best shoot location in Delhi</strong> for pre-wedding, maternity,
-          baby, and fashion photography. Professional setups, stunning backdrops,
-          and affordable packages make every shoot unforgettable.
+          <span className="text-yellow-400 font-semibold">
+            The Picture Town - Alipur
+          </span>{" "}
+          is rated the <strong>best shoot location in Delhi NCR</strong> for
+          pre-wedding, maternity, baby, fashion, commercial, YouTube, and more.
+          Professional setups, stunning backdrops, and affordable packages make
+          every shoot unforgettable.
         </p>
 
+        {/* ✅ Swiper Slider */}
         <div
           onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
           onMouseLeave={() => swiperRef.current?.autoplay?.start()}
@@ -97,7 +146,9 @@ export default function Testimonials() {
               <SwiperSlide key={index}>
                 <div className="bg-white text-black p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all h-full flex flex-col justify-between">
                   <p className="text-base italic mb-4">“{t.quote}”</p>
-                  <div className="text-right font-semibold text-gray-800">– {t.name}</div>
+                  <div className="text-right font-semibold text-gray-800">
+                    – {t.name}
+                  </div>
                 </div>
               </SwiperSlide>
             ))}

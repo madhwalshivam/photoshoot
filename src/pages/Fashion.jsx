@@ -14,6 +14,7 @@ import a11 from "../assets/a13.jpg";
 import a12 from "../assets/a12.jpg";
 import Testimonials from "../components/Testimonial";
 import FashionBanner from "./FasionBanner";
+import FashionVideo from "./FashionVideos";
 
 const images = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12];
 
@@ -61,10 +62,10 @@ const Fashion = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Fashion Shoots location in Delhi NCR</title>
+        <title>The Picture Town -Alipur | Best Fashion Shoots location in Delhi NCR</title>
         <meta
           name="description"
-          content="The Picture Town offers the best maternity photoshoots in Delhi NCR. Capture your motherhood journey with timeless and elegant photography."
+          content="The Picture Town -Alipur offers the best maternity photoshoots in Delhi NCR. Capture your motherhood journey with timeless and elegant photography."
         />
         <meta property="og:title" content="Celebrating the Journey of Motherhood" />
         <meta
@@ -86,7 +87,7 @@ const Fashion = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, we bring your style to life through
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we bring your style to life through
             professionally curated <span className="font-semibold text-black">fashion photoshoots</span>. Whether it's
             for a portfolio, brand campaign, or personal styling session, we specialize in bold, expressive, and
             high-end imagery that defines your unique look. Trusted as one of the{" "}
@@ -159,7 +160,7 @@ const Fashion = () => {
           </button>
         </div>
       )}
-
+       <FashionVideo/>
       <Testimonials />
     </div>
   );

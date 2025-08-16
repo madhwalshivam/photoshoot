@@ -15,6 +15,7 @@ import a12 from "../assets/co12.jpg";
 
 import Testimonials from "../components/Testimonial";
 import CommBanner from "./CommBanner";
+import CommVideo from "./CommVideos";
 
 const images = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12];
 
@@ -61,18 +62,18 @@ const Comm = () => {
   return (
     <div>
      <Helmet>
-  <title>The Picture Town | Best Commercial Shoot location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Commercial Shoot location in Delhi NCR</title>
   <meta
     name="description"
-    content="The Picture Town offers top-quality commercial shoots in Delhi NCR, specializing in product, advertising, and brand photography to make your business stand out."
+    content="The Picture Town -Alipur offers top-quality commercial shoots in Delhi NCR, specializing in product, advertising, and brand photography to make your business stand out."
   />
   <meta 
     property="og:title" 
-    content="Professional Commercial Shoots in Delhi NCR | The Picture Town" 
+    content="Professional Commercial Shoots in Delhi NCR | The Picture Town -Alipur" 
   />
   <meta
     property="og:description"
-    content="Showcase your brand with stunning commercial photography. From products to advertising campaigns, The Picture Town delivers impactful visuals in Delhi NCR."
+    content="Showcase your brand with stunning commercial photography. From products to advertising campaigns, The Picture Town -Alipur delivers impactful visuals in Delhi NCR."
   />
   <meta property="og:type" content="website" />
   <meta 
@@ -93,7 +94,7 @@ const Comm = () => {
   </p>
 
   <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-    At <span className="font-semibold text-black">The Picture Town</span>, we
+    At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we
     create powerful and visually striking{" "}
     <span className="font-semibold text-black">commercial photoshoots</span> that
     help your brand stand out. From product launches and corporate campaigns to
@@ -172,7 +173,7 @@ const Comm = () => {
           </button>
         </div>
       )}
-
+        <CommVideo/>
       <Testimonials />
     </div>
   );

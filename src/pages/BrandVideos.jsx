@@ -5,27 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function BrandVideo() {
   const videos = [
-    "TqfNwxq2sL0",
-    "Y4-Ly0gHGLE",
-    "t6TpcyftH6M",
-    "KMS1tl8Ets4",
-    "Jx14cXmbOls",
-    "-oJ09lvmi0Y",
-    "P2vDFEmGGJo",
-    "DbhtBul52JM",
-    "a5YO_17FMmA",
-    "viNYSMnuzxc",
-    "IRQFN5TAjiY",
-    "F1R_7C06iwM",
-    "j6rQmrs9F54",
-    "SJ9T6nRpDCM",
-    "7we7w6jfOm4",
-    "PVc3BoRUZRQ",
-    "8929qTBQCvE",
-    "HJbIuGe6LZA",
-    "PJ3moZ139CA",
-    "q1ddvSvu7BA",
-    "FKbUnmYUDzw",
+    "dqRqPlI5cd8",
+    "YrFLW4hTp_8",
+    "w8XJLFpY0R4",
+    "1C-T43rIlgY",
   ];
 
   const sliderSettings = {

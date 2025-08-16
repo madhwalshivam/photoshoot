@@ -131,10 +131,10 @@ const House = () => {
   return (
     <div>
     <Helmet>
-  <title>The Picture Town | Best Scottish House Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Scottish House Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Step into elegance at The Picture Town's Scottish House photoshoot location in Delhi NCR. Perfect for heritage-inspired, pre-wedding, and fashion photography."
+    content="Step into elegance at The Picture Town -Alipur's Scottish House photoshoot location in Delhi NCR. Perfect for heritage-inspired, pre-wedding, and fashion photography."
   />
   <meta property="og:title" content="Scottish House Photoshoots in Delhi NCR" />
   <meta
@@ -157,7 +157,7 @@ const House = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Scottish House photoshoot location </span>
       offers a unique blend of heritage charm and architectural grandeur. Whether it’s for a
       <span className="font-semibold text-black"> pre-wedding shoot</span>, fashion editorial,

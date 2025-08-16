@@ -91,10 +91,10 @@ const Red = () => {
   return (
     <div>
     <Helmet>
-  <title>The Picture Town | Best Red Courtyard Haveli Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Red Courtyard Haveli Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Step into royalty at The Picture Town's Red Courtyard Haveli photoshoot location in Delhi NCR. Perfect for pre-wedding, fashion, and traditional shoots."
+    content="Step into royalty at The Picture Town -Alipur's Red Courtyard Haveli photoshoot location in Delhi NCR. Perfect for pre-wedding, fashion, and traditional shoots."
   />
   <meta property="og:title" content="Royal Red Courtyard Haveli Photoshoots in Delhi NCR" />
   <meta
@@ -117,7 +117,7 @@ const Red = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Red Courtyard Haveli photoshoot location </span>
       blends regal architecture with vibrant heritage charm. Whether it’s for a
       <span className="font-semibold text-black"> pre-wedding shoot</span>, fashion editorial,

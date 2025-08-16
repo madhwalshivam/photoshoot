@@ -5,6 +5,8 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
 import logo from '../assets/logo.png'
 export default function Footer() {
   return (
@@ -13,10 +15,10 @@ export default function Footer() {
  <div className="bg-gray-100 py-8 px-6">
   <div className="max-w-7xl mx-auto">
     <h3 className="text-2xl font-semibold font-playfair text-gray-800 mb-4">
-      Best Photoshoot Locations in Delhi – Pre-Wedding, Maternity & More
+      Best Photoshoot Locations in Delhi – Pre-Wedding, Song-Shoot, Fashion-Shoot & More
     </h3>
     <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-      Looking for the <strong>best pre-wedding shoot locations in Delhi</strong>? At <strong>The Picture Town</strong>, we offer some of the most scenic, iconic, and cinematic spots across Delhi NCR to make your love story unforgettable. Whether it’s a royal heritage site, lush garden, or a styled indoor studio, our locations provide the perfect backdrop for your pre-wedding memories.
+      Looking for the <strong>best pre-wedding shoot locations in Delhi</strong>? At <strong>The Picture Town -Alipur</strong>, we offer some of the most scenic, iconic, and cinematic spots across Delhi NCR to make your love story unforgettable. Whether it’s a royal heritage site, lush garden, or a styled indoor studio, our locations provide the perfect backdrop for your pre-wedding memories.
       <br /><br />
       Expecting a little one? We also have <strong>beautiful maternity photoshoot locations in Delhi</strong> that blend comfort, elegance, and natural charm — perfect for celebrating the joy of motherhood.
       <br /><br />
@@ -47,10 +49,10 @@ export default function Footer() {
             {/* Studio Info */}
             <div>
                <div >
-      <img src={logo} alt="The Picture Town Logo" className="h-28" />
+      <img src={logo} alt="The Picture Town -Alipur Logo" className="h-28" />
     </div>
     <p className="font-playfair font-bold text-yellow-400 mb-2">
-      THE PICTURE TOWN
+      The Picture Town -Alipur
               </p>
               <p className="text-gray-300 mb-4">
                 Best Pre Wedding Location in Delhi. Affordable, cinematic sets for prewedding, maternity, anniversary, and more.
@@ -60,7 +62,6 @@ export default function Footer() {
               </p>
             </div>
 
-            {/* Quick Links */}
             <div>
               <h4 className="font-semibold mb-4 font-playfair text-yellow-400">Quick Links</h4>
               <ul className="space-y-2 text-gray-300 text-sm">
@@ -110,11 +111,14 @@ export default function Footer() {
             <div>
               <h4 className="font-semibold mb-4 font-playfair text-yellow-400">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="https://www.facebook.com/thepicturetown" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                <a href="https://www.facebook.com/thepicturetown" target="_blank" rel="noopener noreferrer" className="hover:text-blue-900">
                   <FacebookIcon />
                 </a>
-                <a href="https://www.instagram.com/thepicturetown/#" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                <a href="https://www.instagram.com/thepicturetown/#" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600">
                   <InstagramIcon />
+                </a>
+                 <a href="https://www.youtube.com/@ThePictureTown" target="_blank" rel="noopener noreferrer" className="hover:text-red-600">
+                  <YouTubeIcon/>
                 </a>
                
               </div>
@@ -123,7 +127,7 @@ export default function Footer() {
 
           {/* Footer Bottom */}
           <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
-            <p>© {new Date().getFullYear()} THE PICTURE TOWN | All Rights Reserved</p>
+            <p>© {new Date().getFullYear()} The Picture Town -Alipur | All Rights Reserved</p>
             <p className="mt-2">
               Designed by <a href="https://websiteseotool.in/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 font-playfair hover:underline">Advertising India</a>
             </p>

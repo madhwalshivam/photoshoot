@@ -70,10 +70,10 @@ const Born = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Bonfire Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Bonfire Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience the cozy warmth and magical ambiance of The Picture Town's Bonfire Set in Delhi NCR — an ideal setting for intimate, rustic, and evening-themed photography."
+    content="Experience the cozy warmth and magical ambiance of The Picture Town -Alipur's Bonfire Set in Delhi NCR — an ideal setting for intimate, rustic, and evening-themed photography."
   />
   <meta property="og:title" content="Bonfire Set Photoshoots in Delhi NCR" />
   <meta
@@ -96,7 +96,7 @@ const Born = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Bonfire Set photoshoot location </span>
       provides an inviting and intimate atmosphere perfect for capturing warm, heartfelt moments. Ideal for
       <span className="font-semibold text-black"> romantic portraits</span>, close-knit gatherings,

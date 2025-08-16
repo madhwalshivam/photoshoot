@@ -20,6 +20,8 @@ import z16 from "../assets/z16.jpeg";
 
 import Testimonials from "../components/Testimonial";
 import BabyBanner from "./BabyBanner";
+import BabyVideo from "./BabyVideos";
+
 
 const images = [z, z2, z3, z4, z5, z6, z7, z8, z9, z10, z11, z12, z13, z14, z15, z16];
 
@@ -67,18 +69,18 @@ const Baby = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Baby Shoot location in Delhi NCR</title>
+        <title>The Picture Town -Alipur | Best Baby Shoot location in Delhi NCR</title>
         <meta
           name="description"
-          content="The Picture Town offers heartwarming baby photoshoots in Delhi NCR, capturing the cutest smiles and most precious early memories with love and creativity."
+          content="The Picture Town -Alipur offers heartwarming baby photoshoots in Delhi NCR, capturing the cutest smiles and most precious early memories with love and creativity."
         />
         <meta 
           property="og:title" 
-          content="Adorable Baby Photography in Delhi NCR | The Picture Town" 
+          content="Adorable Baby Photography in Delhi NCR | The Picture Town -Alipur" 
         />
         <meta
           property="og:description"
-          content="Preserve your baby's magical first moments with professional photography. The Picture Town specializes in creative and timeless baby shoots in Delhi NCR."
+          content="Preserve your baby's magical first moments with professional photography. The Picture Town -Alipur specializes in creative and timeless baby shoots in Delhi NCR."
         />
         <meta property="og:type" content="website" />
         <meta 
@@ -98,7 +100,7 @@ const Baby = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, we create heart-touching{" "}
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we create heart-touching{" "}
             <span className="font-semibold text-black">baby photoshoots</span> that preserve your little one's
             sweetest smiles, cutest expressions, and magical first milestones. From newborn photography to playful toddler sessions,
             our creative approach blends warmth, patience, and artistry. Known among the{" "}
@@ -110,7 +112,7 @@ const Baby = () => {
         </div>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {images.map((img, index) => {
             const [ref, visible] = useInView();
             return (
@@ -166,7 +168,7 @@ const Baby = () => {
           </button>
         </div>
       )}
-
+      <BabyVideo/>
       <Testimonials />
     </div>
   );

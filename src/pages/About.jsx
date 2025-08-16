@@ -28,17 +28,17 @@ function AboutStory() {
     },
     {
       year: '2019',
-      title: 'The Picture Town is Born',
+      title: 'The Picture Town -Alipur is Born',
       description:
-        'In 2019, we officially launched *The Picture Town* — now celebrated as the **best pre-wedding shoot location in Delhi NCR**. Located in Holambi Kalan, our venue offers over **50+ themed backdrops**, **200+ cinematic props**, and premium facilities like air-conditioned makeup rooms. From dreamy wedding sets to creative cinematic spaces, it became a visual paradise for photographers, couples, and brands alike.',
+        'In 2019, we officially launched *The Picture Town -Alipur* — now celebrated as the **best pre-wedding shoot location in Delhi NCR**, our venue offers over **50+ themed backdrops**, **200+ cinematic props**, and premium facilities like air-conditioned makeup rooms. From dreamy wedding sets to creative cinematic spaces, it became a visual paradise for photographers, couples, and brands alike.',
       image: image3,
-      alt: 'The Picture Town best pre-wedding shoot location in Delhi NCR',
+      alt: 'The Picture Town -Alipur best pre-wedding shoot location in Delhi NCR',
     },
     {
       year: '2024',
       title: 'Best in Delhi & Beyond',
       description:
-        'Today, *The Picture Town* proudly stands as the **leading photography and creative shoot destination in Delhi NCR**. With over 1000 love stories captured, we’ve hosted countless weddings, fashion shoots, music videos, and maternity sessions. Known for our unmatched backdrops, cinematic flair, and seamless shooting experience, we continue to set the standard for the **best photography location in Delhi NCR** and beyond.',
+        'Today, *The Picture Town -Alipur* proudly stands as the **leading photography and creative shoot destination in Delhi NCR**. With over 1000 love stories captured, we’ve hosted countless weddings, fashion shoots, music videos, and maternity sessions. Known for our unmatched backdrops, cinematic flair, and seamless shooting experience, we continue to set the standard for the **best photography location in Delhi NCR** and beyond.',
       image: image4,
       alt: 'Leading photography and pre-wedding shoot destination in Delhi NCR 2024',
     },
@@ -50,19 +50,19 @@ function AboutStory() {
     <div>
       {/* SEO Tags */}
       <Helmet>
-        <title>About Us | The Picture Town – Best Pre-Wedding Shoot Location in Delhi NCR</title>
+        <title>About Us | The Picture Town -Alipur – Best Pre-Wedding Shoot Location in Delhi NCR</title>
         <meta
           name="description"
-          content="Discover the journey of The Picture Town – from a dream to Delhi NCR’s most loved pre-wedding shoot location. Explore our story of passion, creativity, and excellence."
+          content="Discover the journey of The Picture Town -Alipur – from a dream to Delhi NCR’s most loved pre-wedding shoot location. Explore our story of passion, creativity, and excellence."
         />
         <meta
           name="keywords"
-          content="About The Picture Town, Pre Wedding Shoot in Delhi, Best Photography Studio Delhi NCR, Wedding Photography, Cinematic Studio Delhi"
+          content="About The Picture Town -Alipur, Pre Wedding Shoot in Delhi, Best Photography Studio Delhi NCR, Wedding Photography, Cinematic Studio Delhi"
         />
         <link rel="canonical" href="https://thepicturetown.com/about" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="About Us | The Picture Town" />
+        <meta property="og:title" content="About Us | The Picture Town -Alipur" />
         <meta
           property="og:description"
           content="The inspiring journey from one lens to Delhi NCR’s best pre-wedding shoot location."
@@ -73,7 +73,7 @@ function AboutStory() {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About Us | The Picture Town" />
+        <meta name="twitter:title" content="About Us | The Picture Town -Alipur" />
         <meta
           name="twitter:description"
           content="The inspiring journey from one lens to Delhi NCR’s best pre-wedding shoot location."

@@ -72,10 +72,10 @@ const Village = () => {
   return (
     <div>
    <Helmet>
-  <title>The Picture Town | Best Village Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Village Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience the authentic rustic beauty of The Picture Town's Village Set in Delhi NCR — an ideal setting for traditional, cultural, and nature-inspired photography."
+    content="Experience the authentic rustic beauty of The Picture Town -Alipur's Village Set in Delhi NCR — an ideal setting for traditional, cultural, and nature-inspired photography."
   />
   <meta property="og:title" content="Village Set Photoshoots in Delhi NCR" />
   <meta
@@ -102,7 +102,7 @@ const Village = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Village Set photoshoot location </span>
       celebrates the simple, authentic charm of rural life. Perfect for
       <span className="font-semibold text-black"> heritage shoots</span>, lifestyle portraits,

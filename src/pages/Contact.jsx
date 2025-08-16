@@ -56,20 +56,20 @@ const PhotoshootContact = () => {
     <div className="bg-white text-black min-h-screen">
       <Helmet>
         <title>
-          Book Your Photoshoot | The Picture Town - Best Pre-Wedding Location in Delhi
+          Book Your Photoshoot | The Picture Town -Alipur - Best Pre-Wedding Location in Delhi
         </title>
         <meta
           name="description"
-          content="Book your pre-wedding, maternity, baby, or fashion photoshoot at The Picture Town – Delhi's top-rated photoshoot location. Contact us today!"
+          content="Book your pre-wedding, maternity, baby, or fashion photoshoot at The Picture Town -Alipur – Delhi's top-rated photoshoot location. Contact us today!"
         />
         <meta
           name="keywords"
-          content="Best Pre-Wedding Shoot Delhi, Maternity Photoshoot Delhi, Baby Shoot Delhi, Fashion Shoot Delhi, The Picture Town, Photoshoot Location Delhi"
+          content="Best Pre-Wedding Shoot Delhi, Maternity Photoshoot Delhi, Baby Shoot Delhi, Fashion Shoot Delhi, The Picture Town -Alipur, Photoshoot Location Delhi"
         />
-        <meta property="og:title" content="The Picture Town – Best Photoshoot Location in Delhi NCR" />
+        <meta property="og:title" content="The Picture Town -Alipur – Best Photoshoot Location in Delhi NCR" />
         <meta
           property="og:description"
-          content="Capture your special moments with The Picture Town – Book pre-wedding, maternity, baby, or fashion shoots in Delhi’s best studio & outdoor location."
+          content="Capture your special moments with The Picture Town -Alipur – Book pre-wedding, maternity, baby, or fashion shoots in Delhi’s best studio & outdoor location."
         />
         <meta property="og:url" content="https://thepicturetown.com/contact" />
         <meta property="og:type" content="website" />
@@ -159,7 +159,7 @@ const PhotoshootContact = () => {
         {/* Google Map */}
         <div className="mt-10">
           <iframe
-            title="The Picture Town - Map"
+            title="The Picture Town -Alipur - Map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.228484820522!2d77.11024841508366!3d28.80081198255113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dab9c5d0e4f51%3A0xaf8e7b4d88c69258!2sThe%20Picture%20Town%20-%20Best%20Pre%20Wedding%20Location%20in%20Delhi!5e0!3m2!1sen!2sin!4v1691234567890"
             className="w-full h-80 border-0 rounded-md"
             allowFullScreen

@@ -25,6 +25,7 @@ import i20 from "../assets/i20.png";
 
 import Testimonials from "../components/Testimonial";
 import InstaBanner from "./InstaBanner";  
+import InstaVideo from "./InstaVideos";
 
 const images = [
   i1, i2, i3, i4, i5, i6, i7, i8,
@@ -76,18 +77,18 @@ const InstaShoot = () => {
   return (
     <div>
       <Helmet>
-        <title>The Picture Town | Best Instagram Shoot Location in Delhi NCR</title>
+        <title>The Picture Town -Alipur | Best Instagram Shoot Location in Delhi NCR</title>
         <meta
           name="description"
-          content="The Picture Town offers stylish Instagram photoshoots in Delhi NCR, capturing your best moments with creativity and flair for social media impact."
+          content="The Picture Town -Alipur offers stylish Instagram photoshoots in Delhi NCR, capturing your best moments with creativity and flair for social media impact."
         />
         <meta
           property="og:title"
-          content="Creative Instagram Photoshoots in Delhi NCR | The Picture Town"
+          content="Creative Instagram Photoshoots in Delhi NCR | The Picture Town -Alipur"
         />
         <meta
           property="og:description"
-          content="Boost your Instagram profile with professional photoshoots. The Picture Town delivers trendy and engaging Instagram shoot experiences in Delhi NCR."
+          content="Boost your Instagram profile with professional photoshoots. The Picture Town -Alipur delivers trendy and engaging Instagram shoot experiences in Delhi NCR."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -107,7 +108,7 @@ const InstaShoot = () => {
           </p>
 
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, we
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we
             craft creative <span className="font-semibold text-black">Instagram photoshoots</span> tailored
             for social media impact. Whether it's lifestyle, fashion, or candid moments,
             our expert photographers help you stand out with vibrant, stylish imagery.
@@ -176,7 +177,7 @@ const InstaShoot = () => {
           </button>
         </div>
       )}
-
+      <InstaVideo/>
       <Testimonials />
     </div>
   );

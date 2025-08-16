@@ -64,10 +64,10 @@ const Lib = () => {
   return (
     <div>
     <Helmet>
-  <title>The Picture Town | Best Library Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Library Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience the timeless charm of The Picture Town's Library Set photoshoot location in Delhi NCR. Perfect for book lovers, vintage vibes, pre-wedding, and lifestyle photography."
+    content="Experience the timeless charm of The Picture Town -Alipur's Library Set photoshoot location in Delhi NCR. Perfect for book lovers, vintage vibes, pre-wedding, and lifestyle photography."
   />
   <meta property="og:title" content="Library Set Photoshoots in Delhi NCR" />
   <meta
@@ -90,7 +90,7 @@ const Lib = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Library Set photoshoot location </span>
       offers a sophisticated and vintage-inspired ambiance. Whether it’s for a
       <span className="font-semibold text-black"> pre-wedding shoot</span>, editorial portrait,

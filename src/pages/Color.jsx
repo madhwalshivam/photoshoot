@@ -71,10 +71,10 @@ const Color = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Colour Wall Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Colour Wall Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Add a splash of colour to your memories at The Picture Town's vibrant Colour Wall Set in Delhi NCR — perfect for pre-wedding, lifestyle, fashion, and creative photoshoots."
+    content="Add a splash of colour to your memories at The Picture Town -Alipur's vibrant Colour Wall Set in Delhi NCR — perfect for pre-wedding, lifestyle, fashion, and creative photoshoots."
   />
   <meta 
     property="og:title" 
@@ -104,7 +104,7 @@ const Color = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Colour Wall Set photoshoot location </span>
       is a bold, artistic backdrop designed to make your pictures pop with energy and personality. 
       Perfect for <span className="font-semibold text-black">pre-wedding shoots</span>, 

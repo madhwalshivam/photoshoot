@@ -95,17 +95,17 @@ const PreWeddingPhotos = () => {
     <div>
       {/* SEO */}
       <Helmet>
-        <title>Pre-Wedding Shoot in Delhi NCR | The Picture Town</title>
+        <title>Pre-Wedding Shoot location in Delhi NCR | The Picture Town -Alipur</title>
         <meta
           name="description"
-          content="Explore our stunning pre-wedding shoot gallery at The Picture Town. Best shoot locations in Delhi NCR with cinematic backdrops for your love story."
+          content="Explore our stunning pre-wedding shoot gallery at The Picture Town -Alipur. Best shoot locations in Delhi NCR with cinematic backdrops for your love story."
         />
         <meta
           name="keywords"
-          content="Pre-Wedding Shoot, Delhi NCR Photography, Cinematic Shoot Location, Wedding Photography, The Picture Town Gallery"
+          content="Pre-Wedding Shoot, Delhi NCR Photography, Cinematic Shoot Location, Wedding Photography, The Picture Town -Alipur Gallery"
         />
         <link rel="canonical" href="https://thepicturetown.com/pre-wedding-photography-delhi" />
-        <meta property="og:title" content="Pre-Wedding Shoot Gallery | The Picture Town" />
+        <meta property="og:title" content="Pre-Wedding Shoot Gallery | The Picture Town -Alipur" />
         <meta property="og:description" content="See our beautiful pre-wedding shoots in Delhi NCR with dreamy locations and cinematic props." />
         <meta property="og:image" content="https://thepicturetown.com/assets/pre1.jpg" />
         <meta property="og:type" content="website" />
@@ -121,8 +121,8 @@ const PreWeddingPhotos = () => {
             <span className="text-yellow-400">at Dreamy Locations</span>
           </p>
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            At <span className="font-semibold text-black">The Picture Town</span>, we turn your pre-wedding moments into cinematic memories. 
-            Recognized for the <span className="font-semibold text-black">best pre-wedding shoots in Delhi NCR</span>, our handpicked romantic spots 
+            At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we turn your pre-wedding moments into cinematic memories. 
+            Recognized for the <span className="font-semibold text-black">best pre-wedding shoots location in Delhi NCR</span>, our handpicked romantic spots 
             and artistic direction bring your love story to life through stunning visuals.
           </p>
         </div>

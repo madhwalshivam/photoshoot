@@ -92,10 +92,10 @@ const Glass = () => {
   return (
     <div>
      <Helmet>
-  <title>The Picture Town | Best Glasshouse Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Glasshouse Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience stunning photography at The Picture Town's Glasshouse photoshoot location in Delhi NCR. Perfect for fashion, pre-wedding, and lifestyle shoots."
+    content="Experience stunning photography at The Picture Town -Alipur's Glasshouse photoshoot location in Delhi NCR. Perfect for fashion, pre-wedding, and lifestyle shoots."
   />
   <meta property="og:title" content="Elegant Glasshouse Photoshoots in Delhi NCR" />
   <meta
@@ -117,7 +117,7 @@ const Glass = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our 
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our 
       <span className="font-semibold text-black"> Glasshouse photoshoot location </span> 
        offers the perfect blend of natural light and architectural beauty. Whether it’s for 
       a <span className="font-semibold text-black">pre-wedding shoot</span>, fashion campaign, 

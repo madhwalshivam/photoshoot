@@ -17,10 +17,11 @@ export default function Header() {
   const navItems = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
-    { name: 'Pre-Wedding', href: '/pre-wedding-photography-delhi' },
+    { name: 'Pre-Wedding', href: '/best-pre-wedding-location-in-delhi-ncr' },
   ];
 
   const rightNavItems = [
+   { name: 'Catalogue', href: 'https://drive.google.com/file/d/1XlZvI0e_dSy5mx7SxNlRqa03IyCrT4-i/view?usp=sharing', target: '_blank' },
     { name: 'Videos', href: '/videos' },
     { name: 'Contact', href: '/contact' },
   ];
@@ -71,6 +72,8 @@ export default function Header() {
     { name: 'Railway Station', href: '/railway-station-photoshoot-location-in-delhi' },
     { name: 'London Street', href: '/london-street-photoshoot-location-in-delhi' },
     { name: 'Beach', href: '/beach-photoshoot-location-in-delhi' },
+     { name: 'Machhan', href: '/machhan-photoshoot-location-in-delhi' },
+      { name: 'Others', href: '/best-photoshoot-location-in-delhi' },
   ];
 
   const handleServicesEnter = () => {
@@ -165,7 +168,7 @@ export default function Header() {
 
           {/* Mobile Logo */}
           <Link to="/" className="lg:hidden text-3xl font-playfair text-white">
-            The Picture Town
+            The Picture Town 
           </Link>
 
           {/* Mobile Menu Button */}

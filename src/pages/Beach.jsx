@@ -58,10 +58,10 @@ const Beach = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Beach Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Beach Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Feel the sun, sand, and sea breeze at The Picture Town's Beach Set in Delhi NCR — a perfect backdrop for tropical, romantic, and summer-themed photography."
+    content="Feel the sun, sand, and sea breeze at The Picture Town -Alipur's Beach Set in Delhi NCR — a perfect backdrop for tropical, romantic, and summer-themed photography."
   />
   <meta property="og:title" content="Beach Set Photoshoots in Delhi NCR" />
   <meta
@@ -88,7 +88,7 @@ const Beach = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Beach Set photoshoot location </span>
       offers a vibrant and scenic backdrop, perfect for capturing sunny, carefree moments. 
       Ideal for <span className="font-semibold text-black">romantic shoots</span>, 

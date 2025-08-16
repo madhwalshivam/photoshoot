@@ -84,10 +84,10 @@ const Marry = () => {
   return (
     <div>
      <Helmet>
-  <title>The Picture Town | Best Marry Me Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Marry Me Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Celebrate love with The Picture Town's romantic 'Marry Me' photoshoot location in Delhi NCR. Perfect for proposals, pre-wedding shoots, and capturing forever memories."
+    content="Celebrate love with The Picture Town -Alipur's romantic 'Marry Me' photoshoot location in Delhi NCR. Perfect for proposals, pre-wedding shoots, and capturing forever memories."
   />
   <meta property="og:title" content="Marry Me Photoshoots in Delhi NCR" />
   <meta
@@ -109,7 +109,7 @@ const Marry = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Marry Me photoshoot location </span>
       sets the stage for unforgettable proposals and romantic celebrations.
       With dreamy décor, warm lighting, and a magical ambiance, it’s the perfect

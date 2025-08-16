@@ -15,6 +15,7 @@ import a12 from "../assets/BRAND12.jpg";
 
 import Testimonials from "../components/Testimonial";
 import BrandBanner from "./BrandBanner";
+import BrandVideo from "./BrandVideos";
 
 const images = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12];
 
@@ -61,18 +62,18 @@ const Brand = () => {
   return (
     <div>
      <Helmet>
-  <title>The Picture Town | Best Brand Shoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Brand Shoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="The Picture Town offers premium brand shoots in Delhi NCR, specializing in lifestyle, corporate, and product photography that highlights your brand's unique identity."
+    content="The Picture Town -Alipur offers premium brand shoots in Delhi NCR, specializing in lifestyle, corporate, and product photography that highlights your brand's unique identity."
   />
   <meta 
     property="og:title" 
-    content="Professional Brand Shoots in Delhi NCR | The Picture Town" 
+    content="Professional Brand Shoots in Delhi NCR | The Picture Town -Alipur" 
   />
   <meta
     property="og:description"
-    content="Elevate your brand with stunning photography. From lifestyle to corporate campaigns, The Picture Town delivers creative and impactful brand shoots in Delhi NCR."
+    content="Elevate your brand with stunning photography. From lifestyle to corporate campaigns, The Picture Town -Alipur delivers creative and impactful brand shoots in Delhi NCR."
   />
   <meta property="og:type" content="website" />
   <meta 
@@ -94,7 +95,7 @@ const Brand = () => {
   </p>
 
   <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-    At <span className="font-semibold text-black">The Picture Town</span>, we
+    At <span className="font-semibold text-black">The Picture Town -Alipur</span>, we
     specialize in creating impactful{" "}
     <span className="font-semibold text-black">brand photoshoots</span> that
     showcase your business’s unique personality. From fashion labels and product
@@ -174,7 +175,7 @@ const Brand = () => {
           </button>
         </div>
       )}
-     
+      <BrandVideo/>
       <Testimonials />
     </div>
   );

@@ -82,10 +82,10 @@ const Junk = () => {
   return (
     <div>
  <Helmet>
-  <title>The Picture Town | Best Junkyard Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Junkyard Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Explore the raw, rustic charm of The Picture Town's Junkyard Set in Delhi NCR — a perfect backdrop for edgy, gritty, and urban-inspired photography."
+    content="Explore the raw, rustic charm of The Picture Town -Alipur's Junkyard Set in Delhi NCR — a perfect backdrop for edgy, gritty, and urban-inspired photography."
   />
   <meta property="og:title" content="Junkyard Set Photoshoots in Delhi NCR" />
   <meta
@@ -109,7 +109,7 @@ const Junk = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Junkyard Set photoshoot location </span>
       delivers an edgy and raw atmosphere perfect for bold, artistic, and urban-themed portraits. Ideal for
       <span className="font-semibold text-black"> fashion shoots</span>, creative storytelling,

@@ -76,10 +76,10 @@ const Railway = () => {
   return (
     <div>
 <Helmet>
-  <title>The Picture Town | Best Railway Station Set Photoshoot Location in Delhi NCR</title>
+  <title>The Picture Town -Alipur | Best Railway Station Set Photoshoot Location in Delhi NCR</title>
   <meta
     name="description"
-    content="Experience vintage travel vibes at The Picture Town's Railway Station Set in Delhi NCR — perfect for pre-wedding, cinematic, and retro-themed photoshoots."
+    content="Experience vintage travel vibes at The Picture Town -Alipur's Railway Station Set in Delhi NCR — perfect for pre-wedding, cinematic, and retro-themed photoshoots."
   />
   <meta 
     property="og:title" 
@@ -107,7 +107,7 @@ const Railway = () => {
     </p>
 
     <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-      At <span className="font-semibold text-black">The Picture Town</span>, our
+      At <span className="font-semibold text-black">The Picture Town -Alipur</span>, our
       <span className="font-semibold text-black"> Vintage Railway Station Set photoshoot location </span>
       takes you back to the golden era of train travel, perfect for creating nostalgic and
       cinematic moments. Ideal for <span className="font-semibold text-black">pre-wedding shoots</span>,
